@@ -1,0 +1,775 @@
+INFO [12-14|20:07:09.870] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [12-14|20:07:09.871] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+DEBUG[12-14|20:07:09.871] FS scan times                            list="34.758µs" set=283ns diff=993ns
+DEBUG[12-14|20:07:09.872] Sanitizing Go's GC trigger               percent=100
+INFO [12-14|20:07:09.873] Set global gas cap                       cap=50,000,000
+INFO [12-14|20:07:09.874] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-14|20:07:09.874] Allocated cache and file handles         database=/home/fanhl/ethdata/node2/geth/chaindata cache=512.00MiB handles=2048
+DEBUG[12-14|20:07:09.899] Chain freezer table opened               database=/home/fanhl/ethdata/node2/geth/chaindata/ancient/chain table=hashes items=0 size=0.00B
+DEBUG[12-14|20:07:09.901] Chain freezer table opened               database=/home/fanhl/ethdata/node2/geth/chaindata/ancient/chain table=bodies items=0 size=0.00B
+DEBUG[12-14|20:07:09.902] Chain freezer table opened               database=/home/fanhl/ethdata/node2/geth/chaindata/ancient/chain table=receipts items=0 size=0.00B
+DEBUG[12-14|20:07:09.903] Chain freezer table opened               database=/home/fanhl/ethdata/node2/geth/chaindata/ancient/chain table=diffs    items=0 size=0.00B
+DEBUG[12-14|20:07:09.904] Chain freezer table opened               database=/home/fanhl/ethdata/node2/geth/chaindata/ancient/chain table=headers  items=0 size=0.00B
+INFO [12-14|20:07:09.904] Opened ancient database                  database=/home/fanhl/ethdata/node2/geth/chaindata/ancient/chain readonly=false
+DEBUG[12-14|20:07:09.905] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+INFO [12-14|20:07:09.905]  
+INFO [12-14|20:07:09.905] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-14|20:07:09.906] Chain ID:  1001 (unknown) 
+INFO [12-14|20:07:09.906] Consensus: unknown 
+INFO [12-14|20:07:09.906]  
+INFO [12-14|20:07:09.906] Pre-Merge hard forks: 
+INFO [12-14|20:07:09.906]  - Homestead:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [12-14|20:07:09.906]  - Tangerine Whistle (EIP 150): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [12-14|20:07:09.906]  - Spurious Dragon/1 (EIP 155): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-14|20:07:09.906]  - Spurious Dragon/2 (EIP 158): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-14|20:07:09.906]  - Byzantium:                   <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [12-14|20:07:09.906]  - Constantinople:              <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [12-14|20:07:09.906]  - Petersburg:                  <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [12-14|20:07:09.906]  - Istanbul:                    <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [12-14|20:07:09.906]  - Berlin:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [12-14|20:07:09.906]  - London:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [12-14|20:07:09.906]  
+INFO [12-14|20:07:09.906] The Merge is not yet available for this network! 
+INFO [12-14|20:07:09.906]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [12-14|20:07:09.906] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-14|20:07:09.906]  
+INFO [12-14|20:07:09.906] Disk storage enabled for ethash caches   dir=/home/fanhl/ethdata/node2/geth/ethash count=3
+INFO [12-14|20:07:09.906] Disk storage enabled for ethash DAGs     dir=/home/fanhl/.ethash                   count=2
+INFO [12-14|20:07:09.906] Initialising Ethereum protocol           network=1001 dbversion=8
+INFO [12-14|20:07:09.907] Loaded most recent local header          number=0 hash=cc97a1..9c57c9 td=17,895,697 age=56y9mo6d
+INFO [12-14|20:07:09.907] Loaded most recent local full block      number=0 hash=cc97a1..9c57c9 td=17,895,697 age=56y9mo6d
+INFO [12-14|20:07:09.907] Loaded most recent local fast block      number=0 hash=cc97a1..9c57c9 td=17,895,697 age=56y9mo6d
+DEBUG[12-14|20:07:09.908] Reinjecting stale transactions           count=0
+INFO [12-14|20:07:09.908] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-14|20:07:09.908] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-14|20:07:09.909] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-14|20:07:09.909] Engine API enabled                       protocol=eth
+WARN [12-14|20:07:09.909] Engine API started but chain not configured for merge yet 
+INFO [12-14|20:07:09.909] Starting peer-to-peer node               instance=Geth/node2/v1.10.25-stable-69568c55/linux-amd64/go1.18.5
+DEBUG[12-14|20:07:09.929] TCP listener up                          addr=[::]:30304
+DEBUG[12-14|20:07:09.930] IPCs registered                          namespaces=admin,debug,web3,eth,txpool,personal,ethash,miner,net,engine
+INFO [12-14|20:07:09.930] IPC endpoint opened                      url=/home/fanhl/ethdata/node2/geth.ipc
+INFO [12-14|20:07:09.930] Loaded JWT secret file                   path=/home/fanhl/ethdata/node2/geth/jwtsecret crc32=0x483ebc3f
+DEBUG[12-14|20:07:09.930] Allowed origin(s) for WS RPC interface [localhost] 
+INFO [12-14|20:07:09.931] HTTP server started                      endpoint=127.0.0.1:8546 auth=false prefix= cors= vhosts=localhost
+INFO [12-14|20:07:09.931] WebSocket enabled                        url=ws://127.0.0.1:8552
+INFO [12-14|20:07:09.931] HTTP server started                      endpoint=127.0.0.1:8552 auth=true  prefix= cors=localhost vhosts=localhost
+INFO [12-14|20:07:09.931] New local node record                    seq=1,765,437,793,166 id=c9a15f10befa9ac0 ip=127.0.0.1 udp=0 tcp=30304
+INFO [12-14|20:07:09.931] Started P2P networking                   self="enode://3ccccc628239790ce6abac4937e4b8c3cfab355824972035cad61244acdb0fc10dfa69c16a0a6b382613bf3e8fc869888460531396420e8e690b41d2336b7cce@127.0.0.1:30304?discport=0"
+DEBUG[12-14|20:07:09.959] Served rpc_modules                       reqid=1 duration="48.173µs"
+DEBUG[12-14|20:07:09.961] Served web3_clientVersion                reqid=2 duration="20.486µs"
+WARN [12-14|20:07:09.961] Served eth_coinbase                      reqid=3 duration="14.545µs" err="etherbase must be explicitly specified"
+DEBUG[12-14|20:07:09.962] Served eth_blockNumber                   reqid=4 duration="23.243µs"
+DEBUG[12-14|20:07:09.962] Served eth_blockNumber                   reqid=5 duration="12.643µs"
+DEBUG[12-14|20:07:09.962] Served eth_getBlockByNumber              reqid=6 duration="138.109µs"
+DEBUG[12-14|20:07:09.963] Served admin_datadir                     reqid=7 duration="14.035µs"
+DEBUG[12-14|20:07:09.963] Served rpc_modules                       reqid=8 duration="11.057µs"
+DEBUG[12-14|20:07:12.030] Couldn't add port mapping                proto=tcp extport=30304 intport=30304 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[12-14|20:07:31.730] Served admin_addPeer                     reqid=9 duration="147.811µs"
+INFO [12-14|20:07:31.730] Looking for peers                        peercount=0 tried=0 static=1
+DEBUG[12-14|20:07:31.732] Adding p2p peer                          peercount=1 id=d8ee3e5e1f5fb2e8 conn=staticdial addr=127.0.0.1:30303 name=Geth/node1/v1.10.25-...
+DEBUG[12-14|20:07:31.733] Ethereum peer connected                  id=d8ee3e5e1f5fb2e8 conn=staticdial name=Geth/node1/v1.10.25-...
+DEBUG[12-14|20:07:39.788] Served admin_peers                       reqid=10 duration="192.234µs"
+INFO [12-14|20:08:06.731] Looking for peers                        peercount=1 tried=1 static=1
+DEBUG[12-14|20:08:07.412] RPC server shutting down 
+WARN [12-14|20:08:07.414] HTTP server graceful shutdown timed out 
+INFO [12-14|20:08:07.414] HTTP server stopped                      endpoint=127.0.0.1:8546
+DEBUG[12-14|20:08:07.414] RPC server shutting down 
+DEBUG[12-14|20:08:07.414] RPC server shutting down 
+WARN [12-14|20:08:07.415] HTTP server graceful shutdown timed out 
+INFO [12-14|20:08:07.415] HTTP server stopped                      endpoint=127.0.0.1:8552
+DEBUG[12-14|20:08:07.415] RPC server shutting down 
+INFO [12-14|20:08:07.415] IPC endpoint closed                      url=/home/fanhl/ethdata/node2/geth.ipc
+DEBUG[12-14|20:08:07.415] RPC server shutting down 
+DEBUG[12-14|20:08:07.415] RPC connection read error                err=EOF
+DEBUG[12-14|20:08:07.415] Message handling failed in `snap`        peer=d8ee3e5e err=EOF
+DEBUG[12-14|20:08:07.415] Message handling failed in `eth`         id=d8ee3e5e1f5fb2e8 conn=staticdial err=EOF
+DEBUG[12-14|20:08:07.415] Removing Ethereum peer                   peer=d8ee3e5e snap=true
+DEBUG[12-14|20:08:07.415] Removing p2p peer                        peercount=0 id=d8ee3e5e1f5fb2e8 duration=35.682s     req=false err="client quitting"
+INFO [12-14|20:08:07.415] Ethereum protocol stopped 
+INFO [12-14|20:08:07.415] Transaction pool stopped 
+DEBUG[12-14|20:08:07.415] Journalled generator progress            progress=done
+DEBUG[12-14|20:08:07.415] Journalled disk layer                    root=56e81f..63b421
+INFO [12-14|20:08:07.416] Writing snapshot state to disk           root=56e81f..63b421
+INFO [12-14|20:08:07.416] Persisted trie from memory database      nodes=0 size=0.00B time="3.341µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=1 livesize=0.00B
+INFO [12-14|20:08:07.416] Writing clean trie cache to disk         path=/home/fanhl/ethdata/node2/geth/triecache threads=8
+DEBUG[12-14|20:08:07.417] Adding p2p peer                          peercount=1 id=d8ee3e5e1f5fb2e8 conn=staticdial addr=127.0.0.1:30303 name=Geth/node1/v1.10.25-...
+DEBUG[12-14|20:08:07.417] Message handling failed in `snap`        peer=d8ee3e5e err=EOF
+DEBUG[12-14|20:08:07.417] Removing p2p peer                        peercount=0 id=d8ee3e5e1f5fb2e8 duration="141.856µs" req=false err="client quitting"
+INFO [12-14|20:08:07.417] Persisted the clean trie cache           path=/home/fanhl/ethdata/node2/geth/triecache elapsed=1.895ms
+INFO [12-14|20:08:07.417] Blockchain stopped 
+DEBUG[12-14|20:08:07.418] Read error                               err="accept tcp [::]:30304: use of closed network connection"
+DEBUG[12-14|20:08:07.418] Deleting port mapping                    proto=tcp extport=30304 intport=30304 interface="UPnP or NAT-PMP"
+INFO [12-14|20:08:14.142] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [12-14|20:08:14.142] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+DEBUG[12-14|20:08:14.143] FS scan times                            list="24.872µs" set=283ns diff=987ns
+DEBUG[12-14|20:08:14.143] FS scan times                            list="19.434µs" set=180ns diff=277ns
+DEBUG[12-14|20:08:14.144] Sanitizing Go's GC trigger               percent=100
+INFO [12-14|20:08:14.144] Set global gas cap                       cap=50,000,000
+INFO [12-14|20:08:14.146] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-14|20:08:14.146] Allocated cache and file handles         database=/home/fanhl/ethdata/node2/geth/chaindata cache=512.00MiB handles=2048
+DEBUG[12-14|20:08:14.170] Chain freezer table opened               database=/home/fanhl/ethdata/node2/geth/chaindata/ancient/chain table=headers items=0 size=0.00B
+DEBUG[12-14|20:08:14.172] Chain freezer table opened               database=/home/fanhl/ethdata/node2/geth/chaindata/ancient/chain table=hashes  items=0 size=0.00B
+DEBUG[12-14|20:08:14.175] Chain freezer table opened               database=/home/fanhl/ethdata/node2/geth/chaindata/ancient/chain table=bodies  items=0 size=0.00B
+DEBUG[12-14|20:08:14.178] Chain freezer table opened               database=/home/fanhl/ethdata/node2/geth/chaindata/ancient/chain table=receipts items=0 size=0.00B
+DEBUG[12-14|20:08:14.181] Chain freezer table opened               database=/home/fanhl/ethdata/node2/geth/chaindata/ancient/chain table=diffs    items=0 size=0.00B
+INFO [12-14|20:08:14.181] Opened ancient database                  database=/home/fanhl/ethdata/node2/geth/chaindata/ancient/chain readonly=false
+INFO [12-14|20:08:14.181]  
+INFO [12-14|20:08:14.181] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+DEBUG[12-14|20:08:14.181] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+INFO [12-14|20:08:14.181] Chain ID:  1001 (unknown) 
+INFO [12-14|20:08:14.181] Consensus: unknown 
+INFO [12-14|20:08:14.181]  
+INFO [12-14|20:08:14.181] Pre-Merge hard forks: 
+INFO [12-14|20:08:14.181]  - Homestead:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [12-14|20:08:14.181]  - Tangerine Whistle (EIP 150): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [12-14|20:08:14.181]  - Spurious Dragon/1 (EIP 155): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-14|20:08:14.181]  - Spurious Dragon/2 (EIP 158): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-14|20:08:14.181]  - Byzantium:                   <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [12-14|20:08:14.181]  - Constantinople:              <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [12-14|20:08:14.181]  - Petersburg:                  <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [12-14|20:08:14.181]  - Istanbul:                    <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [12-14|20:08:14.181]  - Berlin:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [12-14|20:08:14.181]  - London:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [12-14|20:08:14.181]  
+INFO [12-14|20:08:14.181] The Merge is not yet available for this network! 
+INFO [12-14|20:08:14.181]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [12-14|20:08:14.181] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-14|20:08:14.181]  
+INFO [12-14|20:08:14.182] Disk storage enabled for ethash caches   dir=/home/fanhl/ethdata/node2/geth/ethash count=3
+INFO [12-14|20:08:14.182] Disk storage enabled for ethash DAGs     dir=/home/fanhl/.ethash                   count=2
+INFO [12-14|20:08:14.182] Initialising Ethereum protocol           network=1001 dbversion=8
+INFO [12-14|20:08:14.182] Loaded most recent local header          number=0 hash=cc97a1..9c57c9 td=17,895,697 age=56y9mo6d
+INFO [12-14|20:08:14.182] Loaded most recent local full block      number=0 hash=cc97a1..9c57c9 td=17,895,697 age=56y9mo6d
+INFO [12-14|20:08:14.182] Loaded most recent local fast block      number=0 hash=cc97a1..9c57c9 td=17,895,697 age=56y9mo6d
+DEBUG[12-14|20:08:14.183] Reinjecting stale transactions           count=0
+INFO [12-14|20:08:14.183] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-14|20:08:14.183] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-14|20:08:14.183] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-14|20:08:14.183] Engine API enabled                       protocol=eth
+WARN [12-14|20:08:14.183] Engine API started but chain not configured for merge yet 
+INFO [12-14|20:08:14.183] Starting peer-to-peer node               instance=Geth/node2/v1.10.25-stable-69568c55/linux-amd64/go1.18.5
+DEBUG[12-14|20:08:14.201] TCP listener up                          addr=[::]:30304
+DEBUG[12-14|20:08:14.202] IPCs registered                          namespaces=admin,debug,web3,eth,txpool,personal,ethash,miner,net,engine
+INFO [12-14|20:08:14.202] IPC endpoint opened                      url=/home/fanhl/ethdata/node2/geth.ipc
+INFO [12-14|20:08:14.202] New local node record                    seq=1,765,437,793,167 id=c9a15f10befa9ac0 ip=127.0.0.1 udp=0 tcp=30304
+INFO [12-14|20:08:14.202] Started P2P networking                   self="enode://3ccccc628239790ce6abac4937e4b8c3cfab355824972035cad61244acdb0fc10dfa69c16a0a6b382613bf3e8fc869888460531396420e8e690b41d2336b7cce@127.0.0.1:30304?discport=0"
+INFO [12-14|20:08:14.202] Loaded JWT secret file                   path=/home/fanhl/ethdata/node2/geth/jwtsecret crc32=0x483ebc3f
+DEBUG[12-14|20:08:14.203] Allowed origin(s) for WS RPC interface [localhost] 
+INFO [12-14|20:08:14.203] HTTP server started                      endpoint=127.0.0.1:8546 auth=false prefix= cors= vhosts=localhost
+INFO [12-14|20:08:14.203] WebSocket enabled                        url=ws://127.0.0.1:8552
+INFO [12-14|20:08:14.203] HTTP server started                      endpoint=127.0.0.1:8552 auth=true  prefix= cors=localhost vhosts=localhost
+DEBUG[12-14|20:08:14.230] Served rpc_modules                       reqid=1 duration="51.163µs"
+DEBUG[12-14|20:08:14.233] Served web3_clientVersion                reqid=2 duration="597.55µs"
+WARN [12-14|20:08:14.233] Served eth_coinbase                      reqid=3 duration="20.092µs" err="etherbase must be explicitly specified"
+DEBUG[12-14|20:08:14.233] Served eth_blockNumber                   reqid=4 duration="15.657µs"
+DEBUG[12-14|20:08:14.233] Served eth_blockNumber                   reqid=5 duration="15.36µs"
+DEBUG[12-14|20:08:14.234] Served eth_getBlockByNumber              reqid=6 duration="162.875µs"
+DEBUG[12-14|20:08:14.234] Served admin_datadir                     reqid=7 duration="17.458µs"
+DEBUG[12-14|20:08:14.234] Served rpc_modules                       reqid=8 duration="13.24µs"
+DEBUG[12-14|20:08:16.301] Couldn't add port mapping                proto=tcp extport=30304 intport=30304 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[12-14|20:08:19.389] Served admin_peers                       reqid=9 duration="166.66µs"
+INFO [12-14|20:09:07.502] Maximum peer count                       ETH=50 LES=0 total=50
+INFO [12-14|20:09:07.503] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+DEBUG[12-14|20:09:07.503] FS scan times                            list="33.227µs" set=414ns diff=545ns
+DEBUG[12-14|20:09:07.504] Sanitizing Go's GC trigger               percent=100
+INFO [12-14|20:09:07.505] Set global gas cap                       cap=50,000,000
+INFO [12-14|20:09:07.506] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+INFO [12-14|20:09:07.506] Allocated cache and file handles         database=/home/fanhl/ethdata/node2/geth/chaindata cache=512.00MiB handles=2048
+DEBUG[12-14|20:09:07.535] Chain freezer table opened               database=/home/fanhl/ethdata/node2/geth/chaindata/ancient/chain table=headers items=0 size=0.00B
+DEBUG[12-14|20:09:07.536] Chain freezer table opened               database=/home/fanhl/ethdata/node2/geth/chaindata/ancient/chain table=hashes  items=0 size=0.00B
+DEBUG[12-14|20:09:07.537] Chain freezer table opened               database=/home/fanhl/ethdata/node2/geth/chaindata/ancient/chain table=bodies  items=0 size=0.00B
+DEBUG[12-14|20:09:07.539] Chain freezer table opened               database=/home/fanhl/ethdata/node2/geth/chaindata/ancient/chain table=receipts items=0 size=0.00B
+DEBUG[12-14|20:09:07.540] Chain freezer table opened               database=/home/fanhl/ethdata/node2/geth/chaindata/ancient/chain table=diffs    items=0 size=0.00B
+INFO [12-14|20:09:07.540] Opened ancient database                  database=/home/fanhl/ethdata/node2/geth/chaindata/ancient/chain readonly=false
+DEBUG[12-14|20:09:07.540] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+INFO [12-14|20:09:07.540]  
+INFO [12-14|20:09:07.540] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-14|20:09:07.540] Chain ID:  1001 (unknown) 
+INFO [12-14|20:09:07.540] Consensus: unknown 
+INFO [12-14|20:09:07.540]  
+INFO [12-14|20:09:07.540] Pre-Merge hard forks: 
+INFO [12-14|20:09:07.540]  - Homestead:                   0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md) 
+INFO [12-14|20:09:07.540]  - Tangerine Whistle (EIP 150): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md) 
+INFO [12-14|20:09:07.540]  - Spurious Dragon/1 (EIP 155): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-14|20:09:07.540]  - Spurious Dragon/2 (EIP 158): 0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md) 
+INFO [12-14|20:09:07.540]  - Byzantium:                   <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md) 
+INFO [12-14|20:09:07.540]  - Constantinople:              <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md) 
+INFO [12-14|20:09:07.540]  - Petersburg:                  <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md) 
+INFO [12-14|20:09:07.540]  - Istanbul:                    <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md) 
+INFO [12-14|20:09:07.540]  - Berlin:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md) 
+INFO [12-14|20:09:07.540]  - London:                      <nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md) 
+INFO [12-14|20:09:07.540]  
+INFO [12-14|20:09:07.540] The Merge is not yet available for this network! 
+INFO [12-14|20:09:07.540]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md 
+INFO [12-14|20:09:07.540] --------------------------------------------------------------------------------------------------------------------------------------------------------- 
+INFO [12-14|20:09:07.540]  
+INFO [12-14|20:09:07.541] Disk storage enabled for ethash caches   dir=/home/fanhl/ethdata/node2/geth/ethash count=3
+INFO [12-14|20:09:07.541] Disk storage enabled for ethash DAGs     dir=/home/fanhl/.ethash                   count=2
+INFO [12-14|20:09:07.541] Initialising Ethereum protocol           network=1001 dbversion=8
+INFO [12-14|20:09:07.542] Loaded most recent local header          number=0 hash=cc97a1..9c57c9 td=17,895,697 age=56y9mo6d
+INFO [12-14|20:09:07.542] Loaded most recent local full block      number=0 hash=cc97a1..9c57c9 td=17,895,697 age=56y9mo6d
+INFO [12-14|20:09:07.542] Loaded most recent local fast block      number=0 hash=cc97a1..9c57c9 td=17,895,697 age=56y9mo6d
+DEBUG[12-14|20:09:07.542] Reinjecting stale transactions           count=0
+INFO [12-14|20:09:07.542] Loaded local transaction journal         transactions=0 dropped=0
+INFO [12-14|20:09:07.542] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-14|20:09:07.543] Gasprice oracle is ignoring threshold set threshold=2
+WARN [12-14|20:09:07.543] Unclean shutdown detected                booted=2025-12-14T20:08:14+0800 age=53s
+WARN [12-14|20:09:07.543] Engine API enabled                       protocol=eth
+WARN [12-14|20:09:07.543] Engine API started but chain not configured for merge yet 
+INFO [12-14|20:09:07.544] Starting peer-to-peer node               instance=Geth/node2/v1.10.25-stable-69568c55/linux-amd64/go1.18.5
+DEBUG[12-14|20:09:07.562] TCP listener up                          addr=[::]:30304
+DEBUG[12-14|20:09:07.565] IPCs registered                          namespaces=admin,debug,web3,eth,txpool,personal,ethash,miner,net,engine
+INFO [12-14|20:09:07.565] IPC endpoint opened                      url=/home/fanhl/ethdata/node2/geth.ipc
+INFO [12-14|20:09:07.565] Loaded JWT secret file                   path=/home/fanhl/ethdata/node2/geth/jwtsecret crc32=0x483ebc3f
+INFO [12-14|20:09:07.565] New local node record                    seq=1,765,437,793,168 id=c9a15f10befa9ac0 ip=127.0.0.1 udp=0 tcp=30304
+DEBUG[12-14|20:09:07.565] Allowed origin(s) for WS RPC interface [localhost] 
+INFO [12-14|20:09:07.565] Started P2P networking                   self="enode://3ccccc628239790ce6abac4937e4b8c3cfab355824972035cad61244acdb0fc10dfa69c16a0a6b382613bf3e8fc869888460531396420e8e690b41d2336b7cce@127.0.0.1:30304?discport=0"
+INFO [12-14|20:09:07.566] HTTP server started                      endpoint=127.0.0.1:8546 auth=false prefix= cors=https://remix.ethereum.org vhosts=localhost
+INFO [12-14|20:09:07.566] WebSocket enabled                        url=ws://127.0.0.1:8552
+INFO [12-14|20:09:07.566] HTTP server started                      endpoint=127.0.0.1:8552 auth=true  prefix= cors=localhost                  vhosts=localhost
+DEBUG[12-14|20:09:07.594] Served rpc_modules                       reqid=1 duration="43.455µs"
+DEBUG[12-14|20:09:07.595] Served web3_clientVersion                reqid=2 duration="26.648µs"
+WARN [12-14|20:09:07.596] Served eth_coinbase                      reqid=3 duration="37.284µs" err="etherbase must be explicitly specified"
+DEBUG[12-14|20:09:07.596] Served eth_blockNumber                   reqid=4 duration="16.235µs"
+DEBUG[12-14|20:09:07.596] Served eth_blockNumber                   reqid=5 duration="16.932µs"
+DEBUG[12-14|20:09:07.596] Served eth_getBlockByNumber              reqid=6 duration="122.226µs"
+DEBUG[12-14|20:09:07.597] Served admin_datadir                     reqid=7 duration="35.384µs"
+DEBUG[12-14|20:09:07.597] Served rpc_modules                       reqid=8 duration="21.747µs"
+DEBUG[12-14|20:09:09.664] Couldn't add port mapping                proto=tcp extport=30304 intport=30304 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[12-14|20:09:30.911] Served admin_peers                       reqid=9 duration="95.793µs"
+DEBUG[12-14|20:09:38.483] Served admin_addPeer                     reqid=10 duration="130.807µs"
+INFO [12-14|20:09:38.483] Looking for peers                        peercount=0 tried=0 static=1
+DEBUG[12-14|20:09:38.485] Adding p2p peer                          peercount=1 id=d8ee3e5e1f5fb2e8 conn=staticdial addr=127.0.0.1:30303 name=Geth/node1/v1.10.25-...
+DEBUG[12-14|20:09:38.485] Ethereum peer connected                  id=d8ee3e5e1f5fb2e8 conn=staticdial name=Geth/node1/v1.10.25-...
+DEBUG[12-14|20:09:42.340] Served admin_peers                       reqid=11 duration="103.499µs"
+DEBUG[12-14|20:09:56.200] Served admin_nodeInfo                    reqid=12 duration="200.155µs"
+DEBUG[12-14|20:10:07.541] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+INFO [12-14|20:10:13.484] Looking for peers                        peercount=1 tried=1 static=1
+DEBUG[12-14|20:10:42.214] Adding p2p peer                          peercount=2 id=6eee9f733061b2ec conn=inbound    addr=127.0.0.1:36660 name=Geth/node3/v1.10.25-...
+INFO [12-14|20:10:42.214] Looking for peers                        peercount=2 tried=0 static=1
+DEBUG[12-14|20:10:42.214] Ethereum peer connected                  id=6eee9f733061b2ec conn=inbound    name=Geth/node3/v1.10.25-...
+DEBUG[12-14|20:10:42.214] Relaxed msgrate QoS values               proto=eth rtt=20s confidence=0.500 ttl=1m0s
+DEBUG[12-14|20:10:42.214] Relaxed msgrate QoS values               proto=snap rtt=20s confidence=0.500 ttl=1m0s
+DEBUG[12-14|20:11:07.542] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:11:56.103] Adding p2p peer                          peercount=3 id=5a153cbdee056a0b conn=inbound    addr=127.0.0.1:36664 name=Geth/node4/v1.10.25-...
+INFO [12-14|20:11:56.103] Looking for peers                        peercount=3 tried=0 static=1
+DEBUG[12-14|20:11:56.104] Ethereum peer connected                  id=5a153cbdee056a0b conn=inbound    name=Geth/node4/v1.10.25-...
+DEBUG[12-14|20:11:56.104] Relaxed msgrate QoS values               proto=eth  rtt=20s confidence=0.333 ttl=1m0s
+DEBUG[12-14|20:11:56.104] Relaxed msgrate QoS values               proto=snap rtt=20s confidence=0.333 ttl=1m0s
+DEBUG[12-14|20:12:07.542] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:13:07.543] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:14:07.543] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:15:07.543] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:16:07.543] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:16:41.745] Served admin_nodeInfo                    reqid=13 duration="96.704µs"
+DEBUG[12-14|20:17:07.544] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:18:07.544] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:19:07.545] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:19:07.565] Couldn't add port mapping                proto=tcp  extport=30304 intport=30304 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[12-14|20:20:07.546] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:21:07.546] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:22:07.547] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:23:07.547] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:24:07.548] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:25:07.550] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:26:07.551] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:27:07.552] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:28:07.553] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:29:07.554] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:29:07.566] Couldn't add port mapping                proto=tcp  extport=30304 intport=30304 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[12-14|20:30:07.555] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:31:07.555] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:32:07.556] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:33:07.557] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:34:07.559] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:35:07.561] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:36:07.563] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:37:07.564] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:38:07.565] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:39:07.566] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:39:07.567] Couldn't add port mapping                proto=tcp  extport=30304 intport=30304 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[12-14|20:40:07.566] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:41:07.567] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:42:07.568] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:43:07.569] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:44:07.570] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:45:07.571] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:46:07.572] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:47:07.573] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:48:07.574] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:49:07.570] Couldn't add port mapping                proto=tcp  extport=30304 intport=30304 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[12-14|20:49:07.574] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:50:07.575] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:51:07.576] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:52:07.577] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:53:07.577] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:54:07.579] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:55:07.580] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:56:07.581] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:57:07.582] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:58:07.582] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|20:59:07.570] Couldn't add port mapping                proto=tcp  extport=30304 intport=30304 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[12-14|20:59:07.583] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|21:00:07.583] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|21:01:07.585] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|21:02:07.585] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|21:03:07.586] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|21:04:07.587] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|21:05:07.588] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|21:06:07.589] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|21:07:07.591] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|21:08:07.592] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+INFO [12-14|21:09:07.542] Writing clean trie cache to disk         path=/home/fanhl/ethdata/node2/geth/triecache threads=1
+INFO [12-14|21:09:07.545] Regenerated local transaction journal    transactions=0 accounts=0
+INFO [12-14|21:09:07.552] Persisted the clean trie cache           path=/home/fanhl/ethdata/node2/geth/triecache elapsed=10.172ms
+DEBUG[12-14|21:09:07.571] Couldn't add port mapping                proto=tcp  extport=30304 intport=30304 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[12-14|21:09:07.592] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|21:10:07.593] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|21:11:07.594] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|21:12:07.595] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|21:13:07.596] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+DEBUG[12-14|21:14:04.868] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=1 hash=c09cd1..b6506f queued=1
+DEBUG[12-14|21:14:04.886] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=1 hash=c09cd1..b6506f
+DEBUG[12-14|21:14:04.909] Failed to load old ethash cache          epoch=0 err="open /home/fanhl/ethdata/node2/geth/ethash/cache-R23-0000000000000000: no such file or directory"
+DEBUG[12-14|21:14:07.629] Current full block not old enough        number=0 hash=cc97a1..9c57c9 delay=90000
+INFO [12-14|21:14:07.947] Generating ethash verification cache     epoch=0 percentage=80 elapsed=3.000s
+INFO [12-14|21:14:08.492] Generated ethash verification cache      epoch=0 elapsed=3.544s
+DEBUG[12-14|21:14:08.515] Failed to load old ethash cache          epoch=1 err="open /home/fanhl/ethdata/node2/geth/ethash/cache-R23-290decd9548b62a8: no such file or directory"
+WARN [12-14|21:14:08.575] Snap syncing, discarded propagated block number=1 hash=c09cd1..b6506f
+DEBUG[12-14|21:14:10.435] Queued delivered header or block         peer=6eee9f733061b2ecdb21c4e865255dc08fad451a2f1094241872f713062b3c31 number=1 hash=c09cd1..b6506f queued=1
+DEBUG[12-14|21:14:10.438] Importing propagated block               peer=6eee9f733061b2ecdb21c4e865255dc08fad451a2f1094241872f713062b3c31 number=1 hash=c09cd1..b6506f
+WARN [12-14|21:14:10.700] Snap syncing, discarded propagated block number=1 hash=c09cd1..b6506f
+INFO [12-14|21:14:11.557] Generating ethash verification cache     epoch=1 percentage=90 elapsed=3.010s
+INFO [12-14|21:14:11.848] Generated ethash verification cache      epoch=1 elapsed=3.301s
+DEBUG[12-14|21:14:32.553] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=2 hash=fa3a9f..07831d queued=1
+INFO [12-14|21:14:32.557] Block synchronisation started 
+DEBUG[12-14|21:14:32.587] Synchronising with the network           peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e eth=67 head=c09cd1..b6506f td=34,926,332 mode=snap
+DEBUG[12-14|21:14:32.588] Retrieving remote chain head             peer=d8ee3e5e
+DEBUG[12-14|21:14:32.588] Fetching batch of headers                id=d8ee3e5e1f5fb2e8 conn=staticdial count=2 fromhash=c09cd1..b6506f skip=63 reverse=true
+DEBUG[12-14|21:14:32.595] Recalculated msgrate QoS values          proto=eth  rtt=20s confidence=0.667 ttl=1m0s next=2025-12-14T21:14:52+0800
+DEBUG[12-14|21:14:32.604] Remote head identified, no pivot         peer=d8ee3e5e number=1 hash=c09cd1..b6506f
+DEBUG[12-14|21:14:32.605] Looking for common ancestor              peer=d8ee3e5e local=0 remote=1
+DEBUG[12-14|21:14:32.605] Fetching batch of headers                id=d8ee3e5e1f5fb2e8 conn=staticdial count=2 fromnum=0 skip=1  reverse=false
+DEBUG[12-14|21:14:32.616] Found common ancestor                    peer=d8ee3e5e number=0 hash=cc97a1..9c57c9
+DEBUG[12-14|21:14:32.623] Created account sync task                from=000000..000000 last=0fffff..ffffff
+DEBUG[12-14|21:14:32.624] Created account sync task                from=100000..000000 last=1fffff..ffffff
+DEBUG[12-14|21:14:32.624] Created account sync task                from=200000..000000 last=2fffff..ffffff
+DEBUG[12-14|21:14:32.624] Created account sync task                from=300000..000000 last=3fffff..ffffff
+DEBUG[12-14|21:14:32.624] Created account sync task                from=400000..000000 last=4fffff..ffffff
+DEBUG[12-14|21:14:32.625] Created account sync task                from=500000..000000 last=5fffff..ffffff
+DEBUG[12-14|21:14:32.626] Created account sync task                from=600000..000000 last=6fffff..ffffff
+DEBUG[12-14|21:14:32.626] Downloading block bodies                 origin=1
+DEBUG[12-14|21:14:32.626] Downloading receipts                     origin=1
+DEBUG[12-14|21:14:32.627] Directing header downloads               peer=d8ee3e5e origin=1
+DEBUG[12-14|21:14:32.629] Fetching batch of headers                id=d8ee3e5e1f5fb2e8 conn=staticdial count=128 fromnum=192 skip=191 reverse=false
+DEBUG[12-14|21:14:32.630] Created account sync task                from=700000..000000 last=7fffff..ffffff
+DEBUG[12-14|21:14:32.630] Created account sync task                from=800000..000000 last=8fffff..ffffff
+DEBUG[12-14|21:14:32.631] Created account sync task                from=900000..000000 last=9fffff..ffffff
+DEBUG[12-14|21:14:32.631] Created account sync task                from=a00000..000000 last=afffff..ffffff
+DEBUG[12-14|21:14:32.632] Created account sync task                from=b00000..000000 last=bfffff..ffffff
+DEBUG[12-14|21:14:32.632] Created account sync task                from=c00000..000000 last=cfffff..ffffff
+DEBUG[12-14|21:14:32.632] Created account sync task                from=d00000..000000 last=dfffff..ffffff
+DEBUG[12-14|21:14:32.632] Created account sync task                from=e00000..000000 last=efffff..ffffff
+DEBUG[12-14|21:14:32.633] Created account sync task                from=f00000..000000 last=ffffff..ffffff
+DEBUG[12-14|21:14:32.633] No skeleton, fetching headers directly   peer=d8ee3e5e
+DEBUG[12-14|21:14:32.635] Fetching batch of headers                id=d8ee3e5e1f5fb2e8 conn=staticdial count=192 fromnum=1   skip=0   reverse=false
+DEBUG[12-14|21:14:32.634] Starting snapshot sync cycle             root=56e81f..63b421
+DEBUG[12-14|21:14:32.637] Recalculated msgrate QoS values          proto=snap rtt=20s confidence=0.667 ttl=1m0s next=2025-12-14T21:14:52+0800
+DEBUG[12-14|21:14:32.647] Fetching batch of headers                id=d8ee3e5e1f5fb2e8 conn=staticdial count=192 fromnum=3   skip=0   reverse=false
+INFO [12-14|21:14:32.665] Imported new block headers               count=2   elapsed=17.575ms number=2 hash=fa3a9f..07831d
+DEBUG[12-14|21:14:32.666] No more headers available                peer=d8ee3e5e
+DEBUG[12-14|21:14:32.666] Header download terminated               peer=d8ee3e5e
+DEBUG[12-14|21:14:32.667] Receipt download terminated              err=nil
+DEBUG[12-14|21:14:32.677] Block body download terminated           err=nil
+INFO [12-14|21:14:32.677] Downloader queue stats                   receiptTasks=0 blockTasks=0 itemSize=110.20B throttle=8192
+DEBUG[12-14|21:14:32.680] Inserting downloaded chain               items=2 firstnum=1 firsthash=c09cd1..b6506f lastnum=2 lasthash=fa3a9f..07831d
+DEBUG[12-14|21:14:32.689] Peer rejected account range request      peer=d8ee3e5e reqid=1,976,235,410,884,491,574 root=56e81f..63b421
+DEBUG[12-14|21:14:32.689] Reverting account request                peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e reqid=1,976,235,410,884,491,574
+DEBUG[12-14|21:14:32.694] Peer rejected account range request      peer=6eee9f73 reqid=2,933,568,871,211,445,515 root=56e81f..63b421
+DEBUG[12-14|21:14:32.694] Reverting account request                peer=6eee9f733061b2ecdb21c4e865255dc08fad451a2f1094241872f713062b3c31 reqid=2,933,568,871,211,445,515
+DEBUG[12-14|21:14:32.697] Peer rejected account range request      peer=5a153cbd reqid=4,324,745,483,838,182,873 root=56e81f..63b421
+DEBUG[12-14|21:14:32.697] Reverting account request                peer=5a153cbdee056a0b6a1485339705b71f8d9a179c0efe786b77edc132437f2eba reqid=4,324,745,483,838,182,873
+DEBUG[12-14|21:14:32.730] Inserted new block                       number=1 hash=c09cd1..b6506f uncles=0 txs=0 gas=0 elapsed=20.271ms root=d0e15b..1c95f1
+INFO [12-14|21:14:32.733] Imported new chain segment               blocks=2 txs=0 mgas=0.000 elapsed=50.056ms mgasps=0.000 number=2 hash=fa3a9f..07831d dirty=486.00B
+DEBUG[12-14|21:14:32.733] Inserted new block                       number=2 hash=fa3a9f..07831d uncles=0 txs=0 gas=0 elapsed=1.453ms  root=e1e26e..87ddd9
+DEBUG[12-14|21:14:32.734] Terminating snapshot sync cycle          root=56e81f..63b421
+DEBUG[12-14|21:14:32.749] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:14:32.749] Synchronisation terminated               elapsed=161.249ms
+WARN [12-14|21:14:32.749] Synchronisation failed, retrying         err="sync cancelled"
+DEBUG[12-14|21:15:07.641] Current full block not old enough        number=2 hash=fa3a9f..07831d delay=90000
+DEBUG[12-14|21:16:07.643] Current full block not old enough        number=2 hash=fa3a9f..07831d delay=90000
+DEBUG[12-14|21:16:52.315] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=3 hash=ca3312..453ef3 queued=2
+DEBUG[12-14|21:16:52.316] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=3 hash=ca3312..453ef3
+WARN [12-14|21:16:52.476] Snap syncing, discarded propagated block number=3 hash=ca3312..453ef3
+DEBUG[12-14|21:17:07.654] Current full block not old enough        number=2 hash=fa3a9f..07831d delay=90000
+DEBUG[12-14|21:18:07.656] Current full block not old enough        number=2 hash=fa3a9f..07831d delay=90000
+DEBUG[12-14|21:18:13.280] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=4 hash=dd1d54..e9b691 queued=1
+DEBUG[12-14|21:18:13.281] Synchronising with the network           peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e eth=67 head=ca3312..453ef3 td=68,946,035 mode=snap
+DEBUG[12-14|21:18:13.281] Retrieving remote chain head             peer=d8ee3e5e
+DEBUG[12-14|21:18:13.281] Fetching batch of headers                id=d8ee3e5e1f5fb2e8 conn=staticdial count=2   fromhash=ca3312..453ef3 skip=63  reverse=true
+DEBUG[12-14|21:18:13.282] Recalculated msgrate QoS values          proto=eth  rtt=20s confidence=0.833 ttl=1m0s next=2025-12-14T21:18:33+0800
+DEBUG[12-14|21:18:13.282] Remote head identified, no pivot         peer=d8ee3e5e number=3 hash=ca3312..453ef3
+DEBUG[12-14|21:18:13.282] Looking for common ancestor              peer=d8ee3e5e local=2 remote=3
+DEBUG[12-14|21:18:13.282] Fetching batch of headers                id=d8ee3e5e1f5fb2e8 conn=staticdial count=2   fromnum=0   skip=1   reverse=false
+DEBUG[12-14|21:18:13.289] Queued delivered header or block         peer=5a153cbdee056a0b6a1485339705b71f8d9a179c0efe786b77edc132437f2eba number=3 hash=ca3312..453ef3 queued=2
+DEBUG[12-14|21:18:13.289] Importing propagated block               peer=5a153cbdee056a0b6a1485339705b71f8d9a179c0efe786b77edc132437f2eba number=3 hash=ca3312..453ef3
+DEBUG[12-14|21:18:13.297] Found common ancestor                    peer=d8ee3e5e number=2 hash=fa3a9f..07831d
+DEBUG[12-14|21:18:13.299] Scheduled account sync task              from=000000..000000 last=0fffff..ffffff
+DEBUG[12-14|21:18:13.299] Scheduled account sync task              from=100000..000000 last=1fffff..ffffff
+DEBUG[12-14|21:18:13.299] Scheduled account sync task              from=200000..000000 last=2fffff..ffffff
+DEBUG[12-14|21:18:13.299] Scheduled account sync task              from=300000..000000 last=3fffff..ffffff
+DEBUG[12-14|21:18:13.299] Scheduled account sync task              from=400000..000000 last=4fffff..ffffff
+DEBUG[12-14|21:18:13.299] Scheduled account sync task              from=500000..000000 last=5fffff..ffffff
+DEBUG[12-14|21:18:13.299] Scheduled account sync task              from=600000..000000 last=6fffff..ffffff
+DEBUG[12-14|21:18:13.299] Scheduled account sync task              from=700000..000000 last=7fffff..ffffff
+DEBUG[12-14|21:18:13.299] Scheduled account sync task              from=800000..000000 last=8fffff..ffffff
+DEBUG[12-14|21:18:13.299] Scheduled account sync task              from=900000..000000 last=9fffff..ffffff
+DEBUG[12-14|21:18:13.299] Scheduled account sync task              from=a00000..000000 last=afffff..ffffff
+DEBUG[12-14|21:18:13.299] Scheduled account sync task              from=b00000..000000 last=bfffff..ffffff
+DEBUG[12-14|21:18:13.299] Scheduled account sync task              from=c00000..000000 last=cfffff..ffffff
+DEBUG[12-14|21:18:13.299] Scheduled account sync task              from=d00000..000000 last=dfffff..ffffff
+DEBUG[12-14|21:18:13.299] Scheduled account sync task              from=e00000..000000 last=efffff..ffffff
+DEBUG[12-14|21:18:13.299] Scheduled account sync task              from=f00000..000000 last=ffffff..ffffff
+DEBUG[12-14|21:18:13.299] Starting snapshot sync cycle             root=e1e26e..87ddd9
+DEBUG[12-14|21:18:13.299] Recalculated msgrate QoS values          proto=snap rtt=20s confidence=0.833 ttl=1m0s next=2025-12-14T21:18:33+0800
+DEBUG[12-14|21:18:13.300] Directing header downloads               peer=d8ee3e5e origin=1
+DEBUG[12-14|21:18:13.300] Fetching batch of headers                id=d8ee3e5e1f5fb2e8 conn=staticdial count=128 fromnum=192 skip=191 reverse=false
+DEBUG[12-14|21:18:13.300] Downloading block bodies                 origin=1
+DEBUG[12-14|21:18:13.300] Downloading receipts                     origin=1
+DEBUG[12-14|21:18:13.301] Peer rejected account range request      peer=5a153cbd reqid=1,874,068,156,324,778,273 root=e1e26e..87ddd9
+DEBUG[12-14|21:18:13.301] Reverting account request                peer=5a153cbdee056a0b6a1485339705b71f8d9a179c0efe786b77edc132437f2eba reqid=1,874,068,156,324,778,273
+DEBUG[12-14|21:18:13.302] Peer rejected account range request      peer=6eee9f73 reqid=2,015,796,113,853,353,331 root=e1e26e..87ddd9
+DEBUG[12-14|21:18:13.302] Reverting account request                peer=6eee9f733061b2ecdb21c4e865255dc08fad451a2f1094241872f713062b3c31 reqid=2,015,796,113,853,353,331
+WARN [12-14|21:18:13.304] Snap syncing, discarded propagated block number=3 hash=ca3312..453ef3
+DEBUG[12-14|21:18:13.324] No skeleton, fetching headers directly   peer=d8ee3e5e
+DEBUG[12-14|21:18:13.324] Fetching batch of headers                id=d8ee3e5e1f5fb2e8 conn=staticdial count=192 fromnum=1   skip=0   reverse=false
+DEBUG[12-14|21:18:13.326] Persisted range of accounts              accounts=0 bytes=0.00B
+DEBUG[12-14|21:18:13.332] Persisted range of accounts              accounts=1 bytes=194.00B
+INFO [12-14|21:18:13.333] State sync in progress                   synced=6.73% state=194.00B accounts=1@194.00B slots=0@0.00B codes=0@0.00B eta=50m58.097s
+DEBUG[12-14|21:18:13.334] Fetching batch of headers                id=d8ee3e5e1f5fb2e8 conn=staticdial count=192 fromnum=5   skip=0   reverse=false
+DEBUG[12-14|21:18:13.336] Persisted range of accounts              accounts=0         bytes=0.00B
+DEBUG[12-14|21:18:13.336] No headers, waiting for pivot commit     peer=d8ee3e5e
+DEBUG[12-14|21:18:13.347] Persisted range of accounts              accounts=0         bytes=0.00B
+INFO [12-14|21:18:13.348] Imported new block headers               count=2   elapsed=13.449ms  number=4 hash=dd1d54..e9b691 age=1m21s    ignored=2
+INFO [12-14|21:18:13.349] Downloader queue stats                   receiptTasks=0 blockTasks=0 itemSize=271.76B throttle=8192
+DEBUG[12-14|21:18:13.349] Inserting snap-sync blocks               items=1 firstnum=1 firsthash=c09cd1..b6506f lastnumn=1 lasthash=c09cd1..b6506f
+INFO [12-14|21:18:13.350] Imported new block receipts              count=0   elapsed="304.648µs" number=1 hash=c09cd1..b6506f age=4m44s    size=0.00B ignored=1
+DEBUG[12-14|21:18:13.351] Terminating snapshot sync cycle          root=e1e26e..87ddd9
+INFO [12-14|21:18:13.351] State sync in progress                   synced=25.03% state=194.00B accounts=1@194.00B slots=0@0.00B codes=0@0.00B eta=11m1.049s
+WARN [12-14|21:18:13.351] Unexpected account range packet          peer=d8ee3e5e reqid=1,905,388,747,193,831,650
+DEBUG[12-14|21:18:13.352] Scheduled account sync task              from=400000..000000 last=4fffff..ffffff
+DEBUG[12-14|21:18:13.352] Scheduled account sync task              from=500000..000000 last=5fffff..ffffff
+DEBUG[12-14|21:18:13.352] Scheduled account sync task              from=600000..000000 last=6fffff..ffffff
+DEBUG[12-14|21:18:13.352] Scheduled account sync task              from=700000..000000 last=7fffff..ffffff
+DEBUG[12-14|21:18:13.352] Scheduled account sync task              from=800000..000000 last=8fffff..ffffff
+DEBUG[12-14|21:18:13.352] Scheduled account sync task              from=900000..000000 last=9fffff..ffffff
+DEBUG[12-14|21:18:13.352] Scheduled account sync task              from=a00000..000000 last=afffff..ffffff
+DEBUG[12-14|21:18:13.352] Scheduled account sync task              from=b00000..000000 last=bfffff..ffffff
+DEBUG[12-14|21:18:13.352] Scheduled account sync task              from=c00000..000000 last=cfffff..ffffff
+DEBUG[12-14|21:18:13.352] Scheduled account sync task              from=d00000..000000 last=dfffff..ffffff
+DEBUG[12-14|21:18:13.352] Scheduled account sync task              from=e00000..000000 last=efffff..ffffff
+DEBUG[12-14|21:18:13.352] Scheduled account sync task              from=f00000..000000 last=ffffff..ffffff
+DEBUG[12-14|21:18:13.352] Starting snapshot sync cycle             root=e1e26e..87ddd9
+DEBUG[12-14|21:18:13.354] Peer rejected account range request      peer=5a153cbd reqid=6,426,100,070,888,298,971 root=e1e26e..87ddd9
+DEBUG[12-14|21:18:13.354] Reverting account request                peer=5a153cbdee056a0b6a1485339705b71f8d9a179c0efe786b77edc132437f2eba reqid=6,426,100,070,888,298,971
+DEBUG[12-14|21:18:13.362] Persisted range of accounts              accounts=0         bytes=0.00B
+DEBUG[12-14|21:18:13.372] Persisted range of accounts              accounts=0         bytes=0.00B
+DEBUG[12-14|21:18:13.376] Peer rejected account range request      peer=6eee9f73 reqid=4,831,389,563,158,288,344 root=e1e26e..87ddd9
+DEBUG[12-14|21:18:13.376] Reverting account request                peer=6eee9f733061b2ecdb21c4e865255dc08fad451a2f1094241872f713062b3c31 reqid=4,831,389,563,158,288,344
+DEBUG[12-14|21:18:13.382] Persisted range of accounts              accounts=0         bytes=0.00B
+DEBUG[12-14|21:18:13.392] Persisted range of accounts              accounts=0         bytes=0.00B
+DEBUG[12-14|21:18:13.402] Persisted range of accounts              accounts=0         bytes=0.00B
+DEBUG[12-14|21:18:13.412] Persisted range of accounts              accounts=0         bytes=0.00B
+DEBUG[12-14|21:18:13.422] Persisted range of accounts              accounts=0         bytes=0.00B
+DEBUG[12-14|21:18:13.433] Persisted range of accounts              accounts=0         bytes=0.00B
+DEBUG[12-14|21:18:13.443] Persisted range of accounts              accounts=0         bytes=0.00B
+DEBUG[12-14|21:18:13.453] Persisted range of accounts              accounts=0         bytes=0.00B
+DEBUG[12-14|21:18:13.463] Persisted range of accounts              accounts=0         bytes=0.00B
+DEBUG[12-14|21:18:13.473] Persisted range of accounts              accounts=0         bytes=0.00B
+INFO [12-14|21:18:13.473] State sync in progress                   synced=100.00% state=194.00B accounts=1@194.00B slots=0@0.00B codes=0@0.00B eta=-132ns
+DEBUG[12-14|21:18:13.474] Terminating snapshot sync cycle          root=e1e26e..87ddd9
+INFO [12-14|21:18:13.474] State heal in progress                   accounts=0@0.00B   slots=0@0.00B codes=0@0.00B nodes=0@0.00B pending=0
+DEBUG[12-14|21:18:13.474] Committing snap sync pivot as new head   number=2 hash=fa3a9f..07831d
+INFO [12-14|21:18:13.476] Imported new block receipts              count=0   elapsed=1.521ms     number=2 hash=fa3a9f..07831d age=4m9s     size=0.00B ignored=1
+INFO [12-14|21:18:13.476] Rebuilding state snapshot 
+DEBUG[12-14|21:18:13.478] Journalled generator progress            progress=empty
+DEBUG[12-14|21:18:13.481] Start snapshot generation                root=e1e26e..87ddd9
+INFO [12-14|21:18:13.482] Committed new head block                 number=2 hash=fa3a9f..07831d
+DEBUG[12-14|21:18:13.482] Inserting downloaded chain               items=2 firstnum=3 firsthash=ca3312..453ef3 lastnum=4 lasthash=dd1d54..e9b691
+INFO [12-14|21:18:13.482] Resuming state snapshot generation       root=e1e26e..87ddd9 accounts=0         slots=0       storage=0.00B dangling=0 elapsed=4.316ms
+DEBUG[12-14|21:18:13.484] Journalled generator progress            progress=done
+INFO [12-14|21:18:13.485] Generated state snapshot                 accounts=1         slots=0       storage=47.00B dangling=0 elapsed=6.666ms
+DEBUG[12-14|21:18:13.518] Inserted new block                       number=3 hash=ca3312..453ef3 uncles=0 txs=0 gas=0 elapsed=5.532ms     root=0955b6..68b988
+INFO [12-14|21:18:13.519] Imported new chain segment               blocks=2 txs=0 mgas=0.000 elapsed=36.924ms    mgasps=0.000 number=4 hash=dd1d54..e9b691 age=1m21s    dirty=973.00B
+DEBUG[12-14|21:18:13.519] Inserted new block                       number=4 hash=dd1d54..e9b691 uncles=0 txs=0 gas=0 elapsed="780.104µs" root=1ac180..8a658a
+DEBUG[12-14|21:18:13.520] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:18:16.337] Fetching batch of headers                id=d8ee3e5e1f5fb2e8 conn=staticdial count=192 fromnum=5   skip=0   reverse=false
+DEBUG[12-14|21:18:16.337] No more headers available                peer=d8ee3e5e
+DEBUG[12-14|21:18:16.337] Header download terminated               peer=d8ee3e5e
+DEBUG[12-14|21:18:16.337] Block body download terminated           err=nil
+DEBUG[12-14|21:18:16.337] Receipt download terminated              err=nil
+DEBUG[12-14|21:18:16.338] Synchronisation terminated               elapsed=3.056s
+INFO [12-14|21:18:16.338] Snap sync complete, auto disabling 
+DEBUG[12-14|21:19:07.572] Couldn't add port mapping                proto=tcp  extport=30304 intport=30304 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[12-14|21:19:07.657] Current full block not old enough        number=4 hash=dd1d54..e9b691 delay=90000
+DEBUG[12-14|21:19:13.347] Account range request timed out          peer=d8ee3e5e reqid=1,905,388,747,193,831,650
+DEBUG[12-14|21:19:30.714] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=5 hash=dbef2f..5b35e8 queued=2
+DEBUG[12-14|21:19:30.714] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=5 hash=dbef2f..5b35e8
+INFO [12-14|21:19:30.741] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=18.970ms    mgasps=0.000 number=5 hash=dbef2f..5b35e8 dirty=1.63KiB
+DEBUG[12-14|21:19:30.741] Inserted new block                       number=5 hash=dbef2f..5b35e8 uncles=0 txs=0 gas=0 elapsed=7.169ms     root=ee125b..ed339c
+DEBUG[12-14|21:19:30.742] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:20:07.657] Current full block not old enough        number=5 hash=dbef2f..5b35e8 delay=90000
+DEBUG[12-14|21:21:07.657] Current full block not old enough        number=5 hash=dbef2f..5b35e8 delay=90000
+DEBUG[12-14|21:22:07.658] Current full block not old enough        number=5 hash=dbef2f..5b35e8 delay=90000
+DEBUG[12-14|21:23:07.659] Current full block not old enough        number=5 hash=dbef2f..5b35e8 delay=90000
+DEBUG[12-14|21:23:45.181] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=6 hash=28e56a..433a51 queued=1
+DEBUG[12-14|21:23:45.181] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=6 hash=28e56a..433a51
+INFO [12-14|21:23:45.222] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=33.301ms    mgasps=0.000 number=6 hash=28e56a..433a51 dirty=2.07KiB
+DEBUG[12-14|21:23:45.222] Inserted new block                       number=6 hash=28e56a..433a51 uncles=0 txs=0 gas=0 elapsed="745.408µs" root=cb8612..8daa1e
+DEBUG[12-14|21:23:45.222] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:24:07.659] Current full block not old enough        number=6 hash=28e56a..433a51 delay=90000
+DEBUG[12-14|21:24:10.005] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=7 hash=7d0270..51dd6a queued=1
+DEBUG[12-14|21:24:10.005] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=7 hash=7d0270..51dd6a
+INFO [12-14|21:24:10.023] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=10.845ms    mgasps=0.000 number=7 hash=7d0270..51dd6a dirty=2.51KiB
+DEBUG[12-14|21:24:10.023] Inserted new block                       number=7 hash=7d0270..51dd6a uncles=0 txs=0 gas=0 elapsed="608.035µs" root=2ae5e9..329350
+DEBUG[12-14|21:24:10.023] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:25:07.661] Current full block not old enough        number=7 hash=7d0270..51dd6a delay=90000
+DEBUG[12-14|21:26:07.661] Current full block not old enough        number=7 hash=7d0270..51dd6a delay=90000
+DEBUG[12-14|21:26:38.310] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=8 hash=71fc23..e78f84 queued=1
+DEBUG[12-14|21:26:38.310] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=8 hash=71fc23..e78f84
+INFO [12-14|21:26:38.324] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=6.461ms     mgasps=0.000 number=8 hash=71fc23..e78f84 age=2m28s    dirty=2.96KiB
+DEBUG[12-14|21:26:38.324] Inserted new block                       number=8 hash=71fc23..e78f84 uncles=0 txs=0 gas=0 elapsed="819.172µs" root=53be9d..8a1830
+DEBUG[12-14|21:26:38.324] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:27:01.751] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=9 hash=25599b..e5f0e3 queued=1
+DEBUG[12-14|21:27:01.751] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=9 hash=25599b..e5f0e3
+INFO [12-14|21:27:01.763] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.592ms     mgasps=0.000 number=9 hash=25599b..e5f0e3 dirty=3.40KiB
+DEBUG[12-14|21:27:01.764] Inserted new block                       number=9 hash=25599b..e5f0e3 uncles=0 txs=0 gas=0 elapsed=2.109ms     root=dbe199..8becca
+DEBUG[12-14|21:27:01.764] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:27:07.661] Current full block not old enough        number=9 hash=25599b..e5f0e3 delay=90000
+DEBUG[12-14|21:28:01.788] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=10 hash=68a755..dd8db5 queued=1
+DEBUG[12-14|21:28:01.788] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=10 hash=68a755..dd8db5
+INFO [12-14|21:28:01.808] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.996ms     mgasps=0.000 number=10 hash=68a755..dd8db5 age=1m       dirty=3.84KiB
+DEBUG[12-14|21:28:01.808] Inserted new block                       number=10 hash=68a755..dd8db5 uncles=0 txs=0 gas=0 elapsed=1.354ms     root=1349d4..d4b02c
+DEBUG[12-14|21:28:01.809] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:28:03.627] Queued delivered header or block         peer=5a153cbdee056a0b6a1485339705b71f8d9a179c0efe786b77edc132437f2eba number=11 hash=b3fe6b..404ca7 queued=1
+DEBUG[12-14|21:28:03.627] Importing propagated block               peer=5a153cbdee056a0b6a1485339705b71f8d9a179c0efe786b77edc132437f2eba number=11 hash=b3fe6b..404ca7
+INFO [12-14|21:28:03.651] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=16.960ms    mgasps=0.000 number=11 hash=b3fe6b..404ca7 dirty=4.29KiB
+DEBUG[12-14|21:28:03.651] Inserted new block                       number=11 hash=b3fe6b..404ca7 uncles=0 txs=0 gas=0 elapsed=4.458ms     root=70e19f..3d0fe1
+DEBUG[12-14|21:28:03.651] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:28:07.662] Current full block not old enough        number=11 hash=b3fe6b..404ca7 delay=90000
+DEBUG[12-14|21:29:07.575] Couldn't add port mapping                proto=tcp  extport=30304 intport=30304 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[12-14|21:29:07.663] Current full block not old enough        number=11 hash=b3fe6b..404ca7 delay=90000
+DEBUG[12-14|21:29:38.053] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=12 hash=cda469..491f5b queued=1
+DEBUG[12-14|21:29:38.053] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=12 hash=cda469..491f5b
+INFO [12-14|21:29:38.074] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=14.663ms    mgasps=0.000 number=12 hash=cda469..491f5b age=1m35s    dirty=4.73KiB
+DEBUG[12-14|21:29:38.075] Inserted new block                       number=12 hash=cda469..491f5b uncles=0 txs=0 gas=0 elapsed=1.995ms     root=d9e4f1..eae8ae
+DEBUG[12-14|21:29:38.075] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:30:03.765] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=13 hash=bbcf26..1865b2 queued=1
+DEBUG[12-14|21:30:03.765] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=13 hash=bbcf26..1865b2
+INFO [12-14|21:30:03.788] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=16.157ms    mgasps=0.000 number=13 hash=bbcf26..1865b2 dirty=5.17KiB
+DEBUG[12-14|21:30:03.788] Inserted new block                       number=13 hash=bbcf26..1865b2 uncles=0 txs=0 gas=0 elapsed=3.564ms     root=82425e..9c44c9
+DEBUG[12-14|21:30:03.788] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:30:07.664] Current full block not old enough        number=13 hash=bbcf26..1865b2 delay=90000
+DEBUG[12-14|21:31:07.665] Current full block not old enough        number=13 hash=bbcf26..1865b2 delay=90000
+DEBUG[12-14|21:31:15.644] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=14 hash=e78652..5309ae queued=1
+DEBUG[12-14|21:31:15.644] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=14 hash=e78652..5309ae
+INFO [12-14|21:31:15.669] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=16.830ms    mgasps=0.000 number=14 hash=e78652..5309ae dirty=5.62KiB
+DEBUG[12-14|21:31:15.669] Inserted new block                       number=14 hash=e78652..5309ae uncles=0 txs=0 gas=0 elapsed=3.464ms     root=bd1c19..28a474
+DEBUG[12-14|21:31:15.670] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:31:15.671] Queued delivered header or block         peer=5a153cbdee056a0b6a1485339705b71f8d9a179c0efe786b77edc132437f2eba number=14 hash=e78652..5309ae queued=1
+DEBUG[12-14|21:31:19.771] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=15 hash=c9f5db..f300ea queued=1
+DEBUG[12-14|21:31:19.771] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=15 hash=c9f5db..f300ea
+INFO [12-14|21:31:19.786] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.114ms     mgasps=0.000 number=15 hash=c9f5db..f300ea dirty=6.06KiB
+DEBUG[12-14|21:31:19.786] Inserted new block                       number=15 hash=c9f5db..f300ea uncles=0 txs=0 gas=0 elapsed=2.155ms     root=c93e52..dd3c33
+DEBUG[12-14|21:31:19.787] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:32:07.666] Current full block not old enough        number=15 hash=c9f5db..f300ea delay=90000
+DEBUG[12-14|21:32:17.018] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=16 hash=26cd25..cf21c2 queued=1
+DEBUG[12-14|21:32:17.018] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=16 hash=26cd25..cf21c2
+INFO [12-14|21:32:17.074] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=44.055ms    mgasps=0.000 number=16 hash=26cd25..cf21c2 dirty=6.50KiB
+DEBUG[12-14|21:32:17.074] Inserted new block                       number=16 hash=26cd25..cf21c2 uncles=0 txs=0 gas=0 elapsed=2.532ms     root=b91142..2da5ce
+DEBUG[12-14|21:32:17.076] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:32:21.568] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=17 hash=8a973f..3b8730 queued=1
+DEBUG[12-14|21:32:21.568] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=17 hash=8a973f..3b8730
+INFO [12-14|21:32:21.606] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=30.282ms    mgasps=0.000 number=17 hash=8a973f..3b8730 dirty=6.95KiB
+DEBUG[12-14|21:32:21.606] Inserted new block                       number=17 hash=8a973f..3b8730 uncles=0 txs=0 gas=0 elapsed=1.413ms     root=d4077e..70e110
+DEBUG[12-14|21:32:21.606] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:33:07.667] Current full block not old enough        number=17 hash=8a973f..3b8730 delay=90000
+DEBUG[12-14|21:34:07.668] Current full block not old enough        number=17 hash=8a973f..3b8730 delay=90000
+DEBUG[12-14|21:34:15.240] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=18 hash=1d95e5..cfce44 queued=1
+DEBUG[12-14|21:34:15.240] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=18 hash=1d95e5..cfce44
+INFO [12-14|21:34:15.305] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=53.180ms    mgasps=0.000 number=18 hash=1d95e5..cfce44 age=1m54s    dirty=7.39KiB
+DEBUG[12-14|21:34:15.305] Inserted new block                       number=18 hash=1d95e5..cfce44 uncles=0 txs=0 gas=0 elapsed=1.333ms     root=dac2bf..40b37b
+DEBUG[12-14|21:34:15.305] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:35:07.669] Current full block not old enough        number=18 hash=1d95e5..cfce44 delay=90000
+DEBUG[12-14|21:35:15.170] Fetching single header                   id=5a153cbdee056a0b conn=inbound    hash=45711a..4902ed
+DEBUG[12-14|21:35:15.177] Queued delivered header or block         peer=5a153cbdee056a0b6a1485339705b71f8d9a179c0efe786b77edc132437f2eba number=19 hash=45711a..4902ed queued=1
+DEBUG[12-14|21:35:15.177] Importing propagated block               peer=5a153cbdee056a0b6a1485339705b71f8d9a179c0efe786b77edc132437f2eba number=19 hash=45711a..4902ed
+INFO [12-14|21:35:15.195] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=10.653ms    mgasps=0.000 number=19 hash=45711a..4902ed age=1m       dirty=7.83KiB
+DEBUG[12-14|21:35:15.195] Inserted new block                       number=19 hash=45711a..4902ed uncles=0 txs=0 gas=0 elapsed=1.178ms     root=60c584..4e73bb
+DEBUG[12-14|21:35:15.195] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:36:07.670] Current full block not old enough        number=19 hash=45711a..4902ed delay=90000
+DEBUG[12-14|21:36:27.036] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=20 hash=45511e..c29fa3 queued=1
+DEBUG[12-14|21:36:27.036] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=20 hash=45511e..c29fa3
+INFO [12-14|21:36:27.051] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=8.212ms     mgasps=0.000 number=20 hash=45511e..c29fa3 age=1m13s    dirty=8.28KiB
+DEBUG[12-14|21:36:27.051] Inserted new block                       number=20 hash=45511e..c29fa3 uncles=0 txs=0 gas=0 elapsed=2.155ms     root=6d2de6..60a29b
+DEBUG[12-14|21:36:27.052] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:36:45.542] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=21 hash=68ae6b..4788ba queued=1
+DEBUG[12-14|21:36:45.542] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=21 hash=68ae6b..4788ba
+INFO [12-14|21:36:45.575] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=27.510ms    mgasps=0.000 number=21 hash=68ae6b..4788ba dirty=8.72KiB
+DEBUG[12-14|21:36:45.576] Inserted new block                       number=21 hash=68ae6b..4788ba uncles=0 txs=0 gas=0 elapsed=21.473ms    root=050fa2..02e52f
+DEBUG[12-14|21:36:45.577] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:37:07.672] Current full block not old enough        number=21 hash=68ae6b..4788ba delay=90000
+DEBUG[12-14|21:38:07.672] Current full block not old enough        number=21 hash=68ae6b..4788ba delay=90000
+DEBUG[12-14|21:38:48.903] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=22 hash=314e2e..2fb13c queued=1
+DEBUG[12-14|21:38:48.904] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=22 hash=314e2e..2fb13c
+INFO [12-14|21:38:48.917] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=6.817ms     mgasps=0.000 number=22 hash=314e2e..2fb13c age=2m3s     dirty=9.17KiB
+DEBUG[12-14|21:38:48.917] Inserted new block                       number=22 hash=314e2e..2fb13c uncles=0 txs=0 gas=0 elapsed="976.322µs" root=dfa767..4f8afb
+DEBUG[12-14|21:38:48.918] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:39:07.577] Couldn't add port mapping                proto=tcp  extport=30304 intport=30304 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[12-14|21:39:07.673] Current full block not old enough        number=22 hash=314e2e..2fb13c delay=90000
+DEBUG[12-14|21:39:24.226] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=23 hash=aa9111..0db8e0 queued=1
+DEBUG[12-14|21:39:24.226] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=23 hash=aa9111..0db8e0
+INFO [12-14|21:39:24.244] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=12.391ms    mgasps=0.000 number=23 hash=aa9111..0db8e0 dirty=9.61KiB
+DEBUG[12-14|21:39:24.244] Inserted new block                       number=23 hash=aa9111..0db8e0 uncles=0 txs=0 gas=0 elapsed=1.470ms     root=16e6a3..089dc3
+DEBUG[12-14|21:39:24.245] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:39:24.250] Queued delivered header or block         peer=5a153cbdee056a0b6a1485339705b71f8d9a179c0efe786b77edc132437f2eba number=23 hash=aa9111..0db8e0 queued=1
+DEBUG[12-14|21:39:39.212] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=24 hash=b4bab3..3d4563 queued=1
+DEBUG[12-14|21:39:39.212] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=24 hash=b4bab3..3d4563
+INFO [12-14|21:39:39.226] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.614ms     mgasps=0.000 number=24 hash=b4bab3..3d4563 dirty=10.05KiB
+DEBUG[12-14|21:39:39.227] Inserted new block                       number=24 hash=b4bab3..3d4563 uncles=0 txs=0 gas=0 elapsed=1.261ms     root=0c355c..f06e62
+DEBUG[12-14|21:39:39.227] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:40:07.674] Current full block not old enough        number=24 hash=b4bab3..3d4563 delay=90000
+DEBUG[12-14|21:41:07.674] Current full block not old enough        number=24 hash=b4bab3..3d4563 delay=90000
+DEBUG[12-14|21:41:17.078] Queued delivered header or block         peer=6eee9f733061b2ecdb21c4e865255dc08fad451a2f1094241872f713062b3c31 number=25 hash=d19348..1c6925 queued=1
+DEBUG[12-14|21:41:17.079] Importing propagated block               peer=6eee9f733061b2ecdb21c4e865255dc08fad451a2f1094241872f713062b3c31 number=25 hash=d19348..1c6925
+INFO [12-14|21:41:17.102] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.678ms     mgasps=0.000 number=25 hash=d19348..1c6925 age=1m38s    dirty=10.50KiB
+DEBUG[12-14|21:41:17.102] Inserted new block                       number=25 hash=d19348..1c6925 uncles=0 txs=0 gas=0 elapsed=1.062ms     root=1c7bcd..8b802b
+DEBUG[12-14|21:41:17.102] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:41:51.355] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=26 hash=a84438..d8aed2 queued=1
+DEBUG[12-14|21:41:51.356] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=26 hash=a84438..d8aed2
+INFO [12-14|21:41:51.369] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=7.292ms     mgasps=0.000 number=26 hash=a84438..d8aed2 dirty=10.94KiB
+DEBUG[12-14|21:41:51.369] Inserted new block                       number=26 hash=a84438..d8aed2 uncles=0 txs=0 gas=0 elapsed=1.323ms     root=c59098..78a8d6
+DEBUG[12-14|21:41:51.369] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:42:07.674] Current full block not old enough        number=26 hash=a84438..d8aed2 delay=90000
+DEBUG[12-14|21:43:07.675] Current full block not old enough        number=26 hash=a84438..d8aed2 delay=90000
+DEBUG[12-14|21:44:07.676] Current full block not old enough        number=26 hash=a84438..d8aed2 delay=90000
+DEBUG[12-14|21:45:03.085] Queued delivered header or block         peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=27 hash=2cbf04..c96082 queued=1
+DEBUG[12-14|21:45:03.085] Importing propagated block               peer=d8ee3e5e1f5fb2e8b0cdfb406f1fdabeff80410ca54741eb2ffa873243caf77e number=27 hash=2cbf04..c96082
+INFO [12-14|21:45:03.109] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=16.388ms    mgasps=0.000 number=27 hash=2cbf04..c96082 age=3m12s    dirty=11.38KiB
+DEBUG[12-14|21:45:03.109] Inserted new block                       number=27 hash=2cbf04..c96082 uncles=0 txs=0 gas=0 elapsed=2.434ms     root=030b70..101057
+DEBUG[12-14|21:45:03.110] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:45:06.255] Queued delivered header or block         peer=5a153cbdee056a0b6a1485339705b71f8d9a179c0efe786b77edc132437f2eba number=28 hash=8c29e4..949cb3 queued=1
+DEBUG[12-14|21:45:06.255] Importing propagated block               peer=5a153cbdee056a0b6a1485339705b71f8d9a179c0efe786b77edc132437f2eba number=28 hash=8c29e4..949cb3
+INFO [12-14|21:45:06.278] Imported new chain segment               blocks=1 txs=0 mgas=0.000 elapsed=15.360ms    mgasps=0.000 number=28 hash=8c29e4..949cb3 dirty=11.83KiB
+DEBUG[12-14|21:45:06.279] Inserted new block                       number=28 hash=8c29e4..949cb3 uncles=0 txs=0 gas=0 elapsed=8.499ms     root=9234b4..4df200
+DEBUG[12-14|21:45:06.279] Reinjecting stale transactions           count=0
+DEBUG[12-14|21:45:07.676] Current full block not old enough        number=28 hash=8c29e4..949cb3 delay=90000
+DEBUG[12-14|21:46:07.677] Current full block not old enough        number=28 hash=8c29e4..949cb3 delay=90000
+DEBUG[12-14|21:47:07.678] Current full block not old enough        number=28 hash=8c29e4..949cb3 delay=90000
+DEBUG[12-14|21:48:07.680] Current full block not old enough        number=28 hash=8c29e4..949cb3 delay=90000
+DEBUG[12-14|21:49:07.579] Couldn't add port mapping                proto=tcp  extport=30304 intport=30304 interface="UPnP or NAT-PMP" err="no UPnP or NAT-PMP router discovered"
+DEBUG[12-14|21:49:07.681] Current full block not old enough        number=28 hash=8c29e4..949cb3 delay=90000
+DEBUG[12-14|21:49:27.247] Message handling failed in `eth`         id=d8ee3e5e1f5fb2e8 conn=staticdial err=EOF
+DEBUG[12-14|21:49:27.247] Message handling failed in `snap`        peer=d8ee3e5e err=EOF
+DEBUG[12-14|21:49:27.248] Removing Ethereum peer                   peer=d8ee3e5e snap=true
+DEBUG[12-14|21:49:27.249] Removing p2p peer                        peercount=2 id=d8ee3e5e1f5fb2e8 duration=1h39m48.764s req=true err="disconnect requested"
+INFO [12-14|21:49:27.252] Looking for peers                        peercount=2 tried=0 static=1
+DEBUG[12-14|21:49:27.272] Adding p2p peer                          peercount=3 id=d8ee3e5e1f5fb2e8 conn=staticdial addr=127.0.0.1:30303 name=Geth/node1/v1.10.25-...
+DEBUG[12-14|21:49:27.273] Message handling failed in `snap`        peer=d8ee3e5e err=EOF
+DEBUG[12-14|21:49:27.275] Ethereum handshake failed                id=d8ee3e5e1f5fb2e8 conn=staticdial err="shutting down"
+DEBUG[12-14|21:49:27.275] Removing p2p peer                        peercount=2 id=d8ee3e5e1f5fb2e8 duration=3.509ms      req=true err="disconnect requested"
+DEBUG[12-14|21:49:28.911] RPC server shutting down 
+WARN [12-14|21:49:28.913] HTTP server graceful shutdown timed out 
+INFO [12-14|21:49:28.913] HTTP server stopped                      endpoint=127.0.0.1:8546
+DEBUG[12-14|21:49:28.913] RPC server shutting down 
+DEBUG[12-14|21:49:28.913] RPC server shutting down 
+WARN [12-14|21:49:28.914] HTTP server graceful shutdown timed out 
+INFO [12-14|21:49:28.914] HTTP server stopped                      endpoint=127.0.0.1:8552
+DEBUG[12-14|21:49:28.916] RPC server shutting down 
+INFO [12-14|21:49:28.916] IPC endpoint closed                      url=/home/fanhl/ethdata/node2/geth.ipc
+DEBUG[12-14|21:49:28.916] RPC server shutting down 
+DEBUG[12-14|21:49:28.917] Message handling failed in `eth`         id=6eee9f733061b2ec conn=inbound    err=EOF
+DEBUG[12-14|21:49:28.918] Removing Ethereum peer                   peer=6eee9f73 snap=true
+DEBUG[12-14|21:49:28.917] Message handling failed in `eth`         id=5a153cbdee056a0b conn=inbound    err=EOF
+DEBUG[12-14|21:49:28.919] Removing Ethereum peer                   peer=5a153cbd snap=true
+DEBUG[12-14|21:49:28.917] Message handling failed in `snap`        peer=5a153cbd err=EOF
+DEBUG[12-14|21:49:28.917] RPC connection read error                err=EOF
+DEBUG[12-14|21:49:28.919] Removing p2p peer                        peercount=1 id=5a153cbdee056a0b duration=1h37m32.816s req=false err="client quitting"
+DEBUG[12-14|21:49:28.917] Message handling failed in `snap`        peer=6eee9f73 err=EOF
+DEBUG[12-14|21:49:28.920] Removing p2p peer                        peercount=0 id=6eee9f733061b2ec duration=1h38m46.705s req=false err="client quitting"
+INFO [12-14|21:49:28.920] Ethereum protocol stopped 
+INFO [12-14|21:49:28.920] Transaction pool stopped 
+DEBUG[12-14|21:49:28.921] Journalled generator progress            progress=done
+DEBUG[12-14|21:49:28.922] Journalled disk layer                    root=e1e26e..87ddd9
+DEBUG[12-14|21:49:28.923] Journalled diff layer                    root=0955b6..68b988 parent=e1e26e..87ddd9
+DEBUG[12-14|21:49:28.923] Journalled diff layer                    root=1ac180..8a658a parent=0955b6..68b988
+DEBUG[12-14|21:49:28.923] Journalled diff layer                    root=ee125b..ed339c parent=1ac180..8a658a
+DEBUG[12-14|21:49:28.923] Journalled diff layer                    root=cb8612..8daa1e parent=ee125b..ed339c
+DEBUG[12-14|21:49:28.923] Journalled diff layer                    root=2ae5e9..329350 parent=cb8612..8daa1e
+DEBUG[12-14|21:49:28.923] Journalled diff layer                    root=53be9d..8a1830 parent=2ae5e9..329350
+DEBUG[12-14|21:49:28.923] Journalled diff layer                    root=dbe199..8becca parent=53be9d..8a1830
+DEBUG[12-14|21:49:28.923] Journalled diff layer                    root=1349d4..d4b02c parent=dbe199..8becca
+DEBUG[12-14|21:49:28.923] Journalled diff layer                    root=70e19f..3d0fe1 parent=1349d4..d4b02c
+DEBUG[12-14|21:49:28.923] Journalled diff layer                    root=d9e4f1..eae8ae parent=70e19f..3d0fe1
+DEBUG[12-14|21:49:28.923] Journalled diff layer                    root=82425e..9c44c9 parent=d9e4f1..eae8ae
+DEBUG[12-14|21:49:28.923] Journalled diff layer                    root=bd1c19..28a474 parent=82425e..9c44c9
+DEBUG[12-14|21:49:28.923] Journalled diff layer                    root=c93e52..dd3c33 parent=bd1c19..28a474
+DEBUG[12-14|21:49:28.923] Journalled diff layer                    root=b91142..2da5ce parent=c93e52..dd3c33
+DEBUG[12-14|21:49:28.923] Journalled diff layer                    root=d4077e..70e110 parent=b91142..2da5ce
+DEBUG[12-14|21:49:28.924] Journalled diff layer                    root=dac2bf..40b37b parent=d4077e..70e110
+DEBUG[12-14|21:49:28.924] Journalled diff layer                    root=60c584..4e73bb parent=dac2bf..40b37b
+DEBUG[12-14|21:49:28.924] Journalled diff layer                    root=6d2de6..60a29b parent=60c584..4e73bb
+DEBUG[12-14|21:49:28.924] Journalled diff layer                    root=050fa2..02e52f parent=6d2de6..60a29b
+DEBUG[12-14|21:49:28.924] Journalled diff layer                    root=dfa767..4f8afb parent=050fa2..02e52f
+DEBUG[12-14|21:49:28.924] Journalled diff layer                    root=16e6a3..089dc3 parent=dfa767..4f8afb
+DEBUG[12-14|21:49:28.924] Journalled diff layer                    root=0c355c..f06e62 parent=16e6a3..089dc3
+DEBUG[12-14|21:49:28.924] Journalled diff layer                    root=1c7bcd..8b802b parent=0c355c..f06e62
+DEBUG[12-14|21:49:28.924] Journalled diff layer                    root=c59098..78a8d6 parent=1c7bcd..8b802b
+DEBUG[12-14|21:49:28.924] Journalled diff layer                    root=030b70..101057 parent=c59098..78a8d6
+DEBUG[12-14|21:49:28.924] Journalled diff layer                    root=9234b4..4df200 parent=030b70..101057
+INFO [12-14|21:49:28.924] Writing cached state to disk             block=28 hash=8c29e4..949cb3 root=9234b4..4df200
+DEBUG[12-14|21:49:28.925] Adding p2p peer                          peercount=1 id=5a153cbdee056a0b conn=inbound    addr=127.0.0.1:36892 name=Geth/node4/v1.10.25-...
+INFO [12-14|21:49:28.925] Persisted trie from memory database      nodes=3       size=409.00B time=1.409639ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=51 livesize=6.46KiB
+DEBUG[12-14|21:49:28.926] Message handling failed in `snap`        peer=5a153cbd err=EOF
+INFO [12-14|21:49:28.926] Writing cached state to disk             block=27 hash=2cbf04..c96082 root=030b70..101057
+DEBUG[12-14|21:49:28.926] Removing p2p peer                        peercount=0 id=5a153cbdee056a0b duration="697.558µs"  req=false err="client quitting"
+DEBUG[12-14|21:49:28.927] Adding p2p peer                          peercount=1 id=6eee9f733061b2ec conn=inbound    addr=127.0.0.1:36894 name=Geth/node3/v1.10.25-...
+INFO [12-14|21:49:28.926] Persisted trie from memory database      nodes=2       size=262.00B time="545.091µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=49 livesize=6.20KiB
+INFO [12-14|21:49:28.927] Writing snapshot state to disk           root=e1e26e..87ddd9
+DEBUG[12-14|21:49:28.927] Message handling failed in `snap`        peer=6eee9f73 err=EOF
+DEBUG[12-14|21:49:28.927] Removing p2p peer                        peercount=0 id=6eee9f733061b2ec duration="112.067µs"  req=false err="client quitting"
+INFO [12-14|21:49:28.927] Persisted trie from memory database      nodes=1       size=147.00B time="276.37µs"  gcnodes=0 gcsize=0.00B gctime=0s livenodes=48 livesize=6.06KiB
+DEBUG[12-14|21:49:28.927] Dereferenced trie from memory database   nodes=1       size=147.00B time="2.52µs"    gcnodes=1 gcsize=147.00B gctime="2.267µs" livenodes=47 livesize=5.91KiB
+DEBUG[12-14|21:49:28.927] Dereferenced trie from memory database   nodes=0       size=0.00B   time=684ns       gcnodes=1 gcsize=147.00B gctime="2.801µs" livenodes=47 livesize=5.91KiB
+DEBUG[12-14|21:49:28.927] Dereferenced trie from memory database   nodes=1       size=147.00B time="1.245µs"   gcnodes=2 gcsize=294.00B gctime="3.87µs"  livenodes=46 livesize=5.77KiB
+DEBUG[12-14|21:49:28.927] Dereferenced trie from memory database   nodes=1       size=148.00B time="2.022µs"   gcnodes=3 gcsize=442.00B gctime="5.486µs" livenodes=45 livesize=5.63KiB
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=261.00B time="1.201µs"   gcnodes=5 gcsize=703.00B gctime="6.634µs" livenodes=43 livesize=5.37KiB
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=261.00B time="1.456µs"   gcnodes=7 gcsize=964.00B gctime="8.046µs" livenodes=41 livesize=5.12KiB
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=261.00B time="1.506µs"   gcnodes=9 gcsize=1.20KiB gctime="9.425µs" livenodes=39 livesize=4.86KiB
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=262.00B time=879ns       gcnodes=11 gcsize=1.45KiB gctime="10.231µs" livenodes=37 livesize=4.61KiB
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=262.00B time="1.062µs"   gcnodes=13 gcsize=1.71KiB gctime="11.247µs" livenodes=35 livesize=4.35KiB
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=262.00B time="1.173µs"   gcnodes=15 gcsize=1.96KiB gctime="12.373µs" livenodes=33 livesize=4.09KiB
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=262.00B time="1.101µs"   gcnodes=17 gcsize=2.22KiB gctime="13.421µs" livenodes=31 livesize=3.84KiB
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=262.00B time=983ns       gcnodes=19 gcsize=2.48KiB gctime="14.354µs" livenodes=29 livesize=3.58KiB
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=262.00B time="1.368µs"   gcnodes=21 gcsize=2.73KiB gctime="15.578µs" livenodes=27 livesize=3.33KiB
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=262.00B time="1.189µs"   gcnodes=23 gcsize=2.99KiB gctime="16.663µs" livenodes=25 livesize=3.07KiB
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=262.00B time="1.242µs"   gcnodes=25 gcsize=3.24KiB gctime="17.775µs" livenodes=23 livesize=2.81KiB
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=262.00B time="1.555µs"   gcnodes=27 gcsize=3.50KiB gctime="19.183µs" livenodes=21 livesize=2.56KiB
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=262.00B time="1.542µs"   gcnodes=29 gcsize=3.75KiB gctime="20.594µs" livenodes=19 livesize=2.30KiB
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=262.00B time="1.379µs"   gcnodes=31 gcsize=4.01KiB gctime="21.903µs" livenodes=17 livesize=2.05KiB
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=262.00B time="1.013µs"   gcnodes=33 gcsize=4.27KiB gctime="22.836µs" livenodes=15 livesize=1.79KiB
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=262.00B time=987ns       gcnodes=35 gcsize=4.52KiB gctime="23.735µs" livenodes=13 livesize=1.54KiB
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=262.00B time="1.542µs"   gcnodes=37 gcsize=4.78KiB gctime="25.147µs" livenodes=11 livesize=1.28KiB
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=262.00B time="1.118µs"   gcnodes=39 gcsize=5.03KiB gctime="26.184µs" livenodes=9  livesize=1.02KiB
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=262.00B time="1.258µs"   gcnodes=41 gcsize=5.29KiB gctime="27.31µs"  livenodes=7  livesize=786.00B
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=262.00B time="1.193µs"   gcnodes=43 gcsize=5.55KiB gctime="28.398µs" livenodes=5  livesize=524.00B
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=262.00B time="16.871µs"  gcnodes=45 gcsize=5.80KiB gctime="45.136µs" livenodes=3  livesize=262.00B
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=2       size=262.00B time="10.316µs"  gcnodes=47 gcsize=6.06KiB gctime="55.324µs" livenodes=1  livesize=0.00B
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=0       size=0.00B   time=644ns       gcnodes=47 gcsize=6.06KiB gctime="55.831µs" livenodes=1  livesize=0.00B
+DEBUG[12-14|21:49:28.928] Dereferenced trie from memory database   nodes=0       size=0.00B   time="1.461µs"   gcnodes=47 gcsize=6.06KiB gctime="56.963µs" livenodes=1  livesize=0.00B
+INFO [12-14|21:49:28.928] Writing clean trie cache to disk         path=/home/fanhl/ethdata/node2/geth/triecache threads=8
+INFO [12-14|21:49:28.935] Persisted the clean trie cache           path=/home/fanhl/ethdata/node2/geth/triecache elapsed=6.750ms
+INFO [12-14|21:49:28.935] Blockchain stopped 
+DEBUG[12-14|21:49:28.938] Read error                               err="accept tcp [::]:30304: use of closed network connection"
+DEBUG[12-14|21:49:28.938] Deleting port mapping                    proto=tcp  extport=30304 intport=30304 interface="UPnP or NAT-PMP"
