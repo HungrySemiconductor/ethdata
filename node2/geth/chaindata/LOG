@@ -1,0 +1,74 @@
+=============== Dec 11, 2025 (CST) ===============
+11:16:50.285994 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+11:16:50.295481 db@open opening
+11:16:50.298796 version@stat F·[] S·0B[] Sc·[]
+11:16:50.302251 db@janitor F·2 G·0
+11:16:50.302289 db@open done T·6.792895ms
+11:16:50.336286 db@close closing
+11:16:50.336324 db@close done T·36.99µs
+=============== Dec 11, 2025 (CST) ===============
+15:23:13.104604 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:23:13.105571 version@stat F·[] S·0B[] Sc·[]
+15:23:13.105600 db@open opening
+15:23:13.105631 journal@recovery F·1
+15:23:13.107849 journal@recovery recovering @1
+15:23:13.112005 memdb@flush created L0@2 N·11 S·593B "H̗..\x9cW\xc9,v4":"r\x00\x00..\x9cW\xc9,v6"
+15:23:13.115074 version@stat F·[1] S·593B[593B] Sc·[0.25]
+15:23:13.125988 db@janitor F·3 G·0
+15:23:13.126019 db@open done T·20.405575ms
+15:23:17.323870 db@close closing
+15:23:17.323905 db@close done T·33.888µs
+=============== Dec 14, 2025 (CST) ===============
+15:29:08.881124 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:29:08.882096 version@stat F·[1] S·593B[593B] Sc·[0.25]
+15:29:08.882129 db@open opening
+15:29:08.882175 journal@recovery F·1
+15:29:08.887996 journal@recovery recovering @3
+15:29:08.893626 memdb@flush created L0@5 N·11 S·518B "Dat..ion,v14":"unc..own,v20"
+15:29:08.899879 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+15:29:08.913725 db@janitor F·4 G·0
+15:29:08.913760 db@open done T·31.624832ms
+15:56:24.429472 db@close closing
+15:56:24.429555 db@close done T·79.963µs
+=============== Dec 14, 2025 (CST) ===============
+20:07:09.874905 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:07:09.875490 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+20:07:09.875524 db@open opening
+20:07:09.875570 journal@recovery F·1
+20:07:09.877542 journal@recovery recovering @6
+20:07:09.882215 memdb@flush created L0@8 N·10 S·502B "Sna..tor,v32":"unc..own,v26"
+20:07:09.884889 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+20:07:09.897931 db@janitor F·5 G·0
+20:07:09.897983 db@open done T·22.451969ms
+20:08:07.418094 db@close closing
+20:08:07.418130 db@close done T·36.334µs
+=============== Dec 14, 2025 (CST) ===============
+20:08:14.146334 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:08:14.146433 version@stat F·[3] S·1KiB[1KiB] Sc·[0.75]
+20:08:14.146457 db@open opening
+20:08:14.146494 journal@recovery F·1
+20:08:14.150970 journal@recovery recovering @9
+20:08:14.154669 memdb@flush created L0@11 N·5 S·447B "Sna..tor,v38":"unc..own,v37"
+20:08:14.156547 version@stat F·[4] S·2KiB[2KiB] Sc·[1.00]
+20:08:14.168858 db@janitor F·6 G·0
+20:08:14.168904 db@open done T·22.429225ms
+20:08:14.168956 table@compaction L0·4 -> L1·0 S·2KiB Q·41
+20:08:14.173957 table@build created L1@14 N·16 S·709B "Dat..ion,v14":"unc..own,v40"
+20:08:14.174003 version@stat F·[0 1] S·709B[0B 709B] Sc·[0.00 0.00]
+20:08:14.181103 table@compaction committed F-3 S-1KiB Ke·0 D·21 T·12.093916ms
+20:08:14.181189 table@remove removed @8
+20:08:14.181306 table@remove removed @5
+20:08:14.181374 table@remove removed @2
+=============== Dec 14, 2025 (CST) ===============
+20:09:07.506741 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:09:07.506825 version@stat F·[0 1] S·709B[0B 709B] Sc·[0.00 0.00]
+20:09:07.506847 db@open opening
+20:09:07.506873 journal@recovery F·1
+20:09:07.511671 journal@recovery recovering @12
+20:09:07.515968 memdb@flush created L0@15 N·2 S·335B "eth..\x9cW\xc9,v42":"unc..own,v43"
+20:09:07.521590 version@stat F·[1 1] S·1KiB[335B 709B] Sc·[0.25 0.00]
+20:09:07.534602 db@janitor F·5 G·1
+20:09:07.534615 db@janitor removing table-11
+20:09:07.534666 db@open done T·27.814025ms
+21:49:28.937721 db@close closing
+21:49:28.938327 db@close done T·604.503µs

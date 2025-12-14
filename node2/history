@@ -1,0 +1,15 @@
+
+admin.addPeer("enode://df6531e1e056ae8cbaf827cf8fed38a9b8bd1a6bfe7e4f9b98529b3aa6abb8cd30103e08fe14f832a4e063ccc18b47fda8ffae0bb6fb86318ee81ce4c15cd123@127.0.0.1:30303?discport=0")
+admin.peers
+net.peerCount
+admin.addPeer("enode://9cf19607ef873c7b8c4a50f2644e8b7ada2d52508c382f508197c3af3950ab7f2769a67415a9ea3792e1fb361f85fafc434a937af130bf5c875460efd0f3b31b@127.0.0.1:30303?discport=0")
+admin.peers
+admin.nodeInfo.enode
+eth.accounts
+admin.nodeInfo.enode
+admin.addPeer("enode://9cf19607ef873c7b8c4a50f2644e8b7ada2d52508c382f508197c3af3950ab7f2769a67415a9ea3792e1fb361f85fafc434a937af130bf5c875460efd0f3b31b@127.0.0.1:30303?discport=0")
+admin.peers
+admin.addPeer("enode://9cf19607ef873c7b8c4a50f2644e8b7ada2d52508c382f508197c3af3950ab7f2769a67415a9ea3792e1fb361f85fafc434a937af130bf5c875460efd0f3b31b@127.0.0.1:30303?discport=0")
+admin.peers
+admin.nodeInfo.enode
+admin.nodeInfo
