@@ -37,7 +37,8 @@
    source ~/.profile
    ```
 
-   ![image-20251210110152084](.\imgs\image-20251210110152084.png)
+   <img src=".\imgs\image-20251210110152084.png" alt="image-20251215003425628" />
+   
 
 ### 1.2. Geth 1.10.25 安装
 
@@ -59,7 +60,7 @@
    sudo mv geth-linux-amd64-1.10.25-69568c55/geth /usr/local/bin/
    ```
 
-   ![image-20251210115158396](.\imgs\image-20251210115158396-1765729822244.png)
+   <img src=".\imgs\image-20251210115158396.png" alt="image-20251215003425628" />
 
 ## 2. 网络部署
 
@@ -124,7 +125,7 @@
   | `timestamp`      | 十六进制字符串：0x0-0xFFFFFFFF         | 创世区块生成时间戳（Unix时间戳）。0表示1970年1月1日，实际运行时会更新 |
   | `alloc`          | 对象或空对象{}                         | 预分配初始账户和余额。此处为空对象，表示无预挖代币           |
   
-  ![image-20251211110836003](.\imgs\image-20251211110836003.png)
+  <img src=".\imgs\image-20251211110836003.png" alt="image-20251215003425628" />
 
 ### 2.2. 启动私链
 
@@ -155,7 +156,7 @@
   | `init`             | 初始化命名，创建新区块链的初始化操作       |
   | `./genesis.json`   | 创世文件路径，定义区块链初始状态的配置文件 |
 
-  ![image-20251211111629136](.\imgs\image-20251211111629136.png)
+  <img src=".\imgs\image-20251211111629136.png" alt="image-20251215003425628" />
 
 - **启动私链**
 
@@ -189,7 +190,7 @@
   | `console`            | 打开Geth的 JavaScript 控制台，允许节点交互                   |
   | `2 > node.log`       | 将错误日志输出到文件                                         |
   
-  ![image-20251211152244400](\image-20251211152244400.png)
+  <img src=".\imgs\image-20251211152244400.png" alt="image-20251215003425628" />
 
 - **另开终端监听 log**
 
@@ -198,7 +199,7 @@
   tail -f node1.log
   ```
 
-  ![image-20251211153826652](.\imgs\image-20251211153826652.png)
+  <img src=".\imgs\image-20251211153826652.png" alt="image-20251215003425628" />
 
 ### 2.3 多节点交互
 
@@ -208,9 +209,9 @@
    admin.nodeInfo.enode	// 获取node1信息
    ```
 
-   ![image-20251214151559746](.\imgs\image-20251214151559746.png)
+   <img src=".\imgs\image-20251214151559746.png" alt="image-20251215003425628" />
 
-2. 另开新的终端，进入节点2的控制台，添加节点1信息并验证
+3. 另开新的终端，进入节点2的控制台，添加节点1信息并验证
 
    ```javascript
    admin.addPeer("从节点1获取的信息")
@@ -218,9 +219,9 @@
    admin.nodeInfo.enode	// 获取node2信息
    ```
 
-   ![image-20251214153402019](.\imgs\image-20251214153402019.png)
+   <img src=".\imgs\image-20251214153402019.png" alt="image-20251215003425628" />
 
-3. 另开新的终端，进入节点3的控制台，添加节点1、2信息并验证
+5. 另开新的终端，进入节点3的控制台，添加节点1、2信息并验证
 
    ```javascript
    admin.addPeer("从节点1获取的信息")
@@ -229,9 +230,10 @@
    admin.nodeInfo.enode	// 获取node3信息
    ```
 
-   ![image-20251214154444417](.\imgs\image-20251214154444417.png)
+   <img src=".\imgs\image-20251214154444417.png" alt="image-20251215003425628" />
+   
 
-4. 另开新的终端，进入节点4的控制台，添加节点1、2、3信息并验证
+6. 另开新的终端，进入节点4的控制台，添加节点1、2、3信息并验证
 
    ```javascript
    admin.addPeer("从节点1获取的信息")
@@ -240,7 +242,7 @@
    admin.peers				// 验证节点信息
    ```
 
-   ![image-20251214154754779](.\imgs\image-20251214154754779.png)
+    <img src=".\imgs\image-20251214154754779.png" alt="image-20251215003425628" />
 
 ### 2.4 节点信息
 
@@ -400,9 +402,9 @@
    personal.newAccount("lab1")	// 创建一个密码为lab1的账户
    ```
 
-   ![image-20251214124023163](.\imgs\image-20251214124023163.png)
+   <img src=".\imgs\image-20251214124023163.png" alt="image-20251215003425628" />
 
-3. 挖矿
+4. 挖矿
 
    > 启动挖矿后，虽然显示null但是实际上在后台运行，可以通过查看区块高度看到数字在增长
 
@@ -413,9 +415,9 @@
    miner.stop()	//关闭挖矿
    ```
 
-   ![image-20251214124619630](.\imgs\image-20251214124619630.png)
+   <img src=".\imgs\image-20251214124619630.png" alt="image-20251215003425628" />
 
-   ![image-20251214213403096](.\imgs\image-20251214213403096.png)
+   <img src=".\imgs\image-20251214213403096.png" alt="image-20251215003425628" />
 
 ### 3.2 创建并编译合约
 
@@ -445,7 +447,8 @@
 
 3. 在 `Solidity Compiler` 页面点击 `Compiled` 编译该文件，出现 `√` 即编译成功
 
-   ![image-20251214203638290](.\imgs\image-20251214203638290.png)
+   <img src=".\imgs\image-20251214203638290.png" alt="image-20251215003425628" />
+   
 
 ### 3.3 连接Remix并部署合约
 
@@ -468,11 +471,11 @@
    2. ETH为0导致部署失败，需要在节点1中预先挖矿，获取一定ETH，Remix中选择ACCOUNT时可以看见账户余额
    ```
 
-   ![image-20251214204707228](E:\Typora\Typora\coding-study\image-20251214204707228.png)
+   <img src=".\imgs\image-20251214204707228.png" alt="image-20251214222938267" />
 
-   ![image-20251214215547568](.\imgs\image-20251214215547568.png)
+   <img src=".\imgs\image-20251214215547568.png" alt="image-20251214222938267" />
 
-3. 部署成功可以看到 `creation of KeyValueStore pending...` 表示交易正在提交，这时在节点1中输入miner.start()，等待一会儿，当deplyed contracts有内容可展开时，再miner.stop()，此时 `Deployed Contracts`  可以展开
+4. 部署成功可以看到 `creation of KeyValueStore pending...` 表示交易正在提交，这时在节点1中输入miner.start()，等待一会儿，当deplyed contracts有内容可展开时，再miner.stop()，此时 `Deployed Contracts`  可以展开
 
    > 合约地址：0x94C28129b02D861a002367d3d9820F3bff377C3f
 
@@ -482,14 +485,14 @@
    >
    >value：“123456”
 
-<img src=".\imgs\image-20251215003425628.png" alt="image-20251215003425628" style="zoom: 67%;" />
+<img src=".\imgs\image-20251215003425628.png" alt="image-20251215003425628" />
 
-![image-20251214222938267](.\imgs\image-20251214222938267.png)
+<img src=".\imgs\image-20251214222938267.png" alt="image-20251214222938267" />
 
 5. 在节点1中输入miner.start()，短暂挖矿确认交易，等待一会儿，当终端有内容可展开时，再miner.stop()
 
-![image-20251214222817245](.\imgs\image-20251214222817245.png)
+<img src=".\imgs\image-20251214222817245.png" alt="image-20251214222938267" />
 
 6. 在Remix的 `Deployed Contracts`  中`get` 输入相应的key后，点击call，可以获取对应value
 
-![image-20251214222855100](.\imgs\image-20251214222855100.png)
+<img src=".\imgs\image-20251214222855100.png" alt="image-20251214222938267" />
