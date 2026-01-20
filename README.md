@@ -486,8 +486,6 @@
    >
    >value：“123456”
 
-<img src=".\imgs\image-20251215003425628.png" alt="image-20251215003425628" />
-
 <img src=".\imgs\image-20251214222938267.png" alt="image-20251214222938267" />
 
 5. 在节点1中输入miner.start()，短暂挖矿确认交易，等待一会儿，当终端有内容可展开时，再miner.stop()
